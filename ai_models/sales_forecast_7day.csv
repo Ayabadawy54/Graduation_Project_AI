@@ -1,0 +1,8 @@
+date,predicted_orders,confidence_low,confidence_high,day_of_week
+2026-02-01,5,4,6,Sunday
+2026-02-02,7,6,8,Monday
+2026-02-03,6,5,8,Tuesday
+2026-02-04,6,5,7,Wednesday
+2026-02-05,6,5,7,Thursday
+2026-02-06,6,5,7,Friday
+2026-02-07,6,5,7,Saturday

@@ -1,0 +1,11 @@
+{
+  "model_name": "Sales Forecaster",
+  "version": "1.0.0",
+  "trained_date": "2026-01-31T22:45:41.572637",
+  "performance": {
+    "mae": 6.298344573255699,
+    "rmse": 8.996588276934025,
+    "avg_orders": 7.117437722419929
+  },
+  "forecast_horizon": "7 days"
+}

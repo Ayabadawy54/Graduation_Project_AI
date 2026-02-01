@@ -1,0 +1,8 @@
+{
+  "model_name": "Product Recommender",
+  "version": "1.0.0",
+  "trained_date": "2026-01-31T22:45:52.690522",
+  "total_users": 491,
+  "total_products": 424,
+  "sparsity": 0.99
+}

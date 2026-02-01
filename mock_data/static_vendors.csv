@@ -1,0 +1,11 @@
+﻿vendor_id,name,contact_person,phone,email,governorate,address,rating,fulfillment_rate,avg_delivery_days,total_materials,created_at
+VEND000,Cairo Supplies Co,Hoda Hassan,+20 010 938 1284,hoda.hassan@outlook.com,Dakahlia,76252 Nicole Corners Apt. 116,4.3,0.88,4,8,2023-04-13 00:00:00
+VEND001,Egypt Materials Ltd,Seif Khalil,+20 012 563 9039,seif.khalil@outlook.com,Monufia,542 Gary Lights Suite 011,3.9,0.92,7,19,2023-01-14 00:00:00
+VEND002,Nile Trading,Hussein Fouad,+20 012 630 8935,hussein.fouad@gmail.com,Sharqia,8116 Norton Streets Suite 290,4.5,0.96,2,9,2024-02-25 00:00:00
+VEND003,Delta Fabrics,Waleed Omar,+20 011 465 9156,waleed.omar@gmail.com,Dakahlia,1538 Baxter Throughway,4.4,0.95,8,16,2023-07-31 00:00:00
+VEND004,Alexandria Imports,Rawan Abdullah,+20 011 486 2768,rawan.abdullah@outlook.com,Monufia,7302 Billy Ports,4.8,0.92,10,10,2023-09-29 00:00:00
+VEND005,Egyptian Cotton Co,Noha Osman,+20 012 500 7836,noha.osman@outlook.com,Sharqia,75304 Michael Flat Apt. 984,3.8,0.94,7,8,2024-03-19 00:00:00
+VEND006,Pharaoh Materials,Yasmin Ali,+20 012 395 2805,yasmin.ali@gmail.com,Gharbia,50755 Allison Parkway,4.9,0.87,4,14,2023-06-16 00:00:00
+VEND007,Giza Supplies,Seif Kamel,+20 012 166 5828,seif.kamel@gmail.com,Gharbia,84677 Jesse Parks Suite 679,3.6,0.89,3,6,2024-05-15 00:00:00
+VEND008,Mediterranean Trading,Seif Mahmoud,+20 015 460 1010,seif.mahmoud@gmail.com,Sharqia,08307 Nelson Hill Apt. 583,3.7,0.98,10,9,2023-03-30 00:00:00
+VEND009,Cairo Craft Materials,Israa Eldeen,+20 011 850 4223,israa.eldeen@hotmail.com,Beheira,0172 Jackson Row Suite 328,4.9,0.89,2,20,2023-12-30 00:00:00

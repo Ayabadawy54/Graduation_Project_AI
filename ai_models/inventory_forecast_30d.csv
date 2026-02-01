@@ -1,0 +1,46 @@
+﻿material_id,material_name,category,current_stock,forecasted_demand_30d,daily_avg_demand,stock_shortage,needs_restock,days_until_stockout
+MAT0017,Palm Leaves,Fabrics,25,35,1.18,10,True,21
+MAT0000,Raw Clay,Natural Materials,408,2,0.1,0,False,4253
+MAT0036,Raw Clay,Fabrics,773,11,0.4,0,False,1937
+MAT0027,Raw Silver,Beads & Accessories,512,13,0.44,0,False,1171
+MAT0028,Palm Leaves,Leather & Textiles,399,41,1.39,0,False,287
+MAT0029,Genuine Leather,Leather & Textiles,347,5,0.17,0,False,1994
+MAT0030,Glass Beads,Beads & Accessories,945,4,0.14,0,False,6531
+MAT0031,Genuine Leather,Natural Materials,620,8,0.3,0,False,2089
+MAT0032,Embroidery Thread,Oils & Herbs,265,28,0.96,0,False,277
+MAT0033,Natural Wax,Oils & Herbs,632,7,0.25,0,False,2485
+MAT0034,Natural Clay,Fabrics,237,10,0.36,0,False,664
+MAT0037,Genuine Leather,Fabrics,867,2,0.08,0,False,10566
+MAT0025,Raw Silver,Fabrics,310,29,0.97,0,False,319
+MAT0038,Genuine Leather,Wood & Clay,945,1,0.05,0,False,18056
+MAT0040,Seashells,Leather & Textiles,695,18,0.63,0,False,1099
+MAT0041,Raw Clay,Leather & Textiles,828,19,0.64,0,False,1284
+MAT0042,Beech Wood,Fabrics,208,10,0.33,0,False,624
+MAT0043,Glass Beads,Fabrics,559,54,1.82,0,False,307
+MAT0044,Genuine Leather,Beads & Accessories,508,60,2.02,0,False,251
+MAT0045,Beech Wood,Oils & Herbs,365,8,0.28,0,False,1327
+MAT0046,Seashells,Natural Materials,437,26,0.87,0,False,504
+MAT0047,Natural Clay,Natural Materials,801,4,0.14,0,False,5629
+MAT0026,Raw Silver,Fabrics,479,13,0.44,0,False,1080
+MAT0024,Wool Yarn,Wood & Clay,28,5,0.19,0,False,149
+MAT0001,Pottery Clay,Beads & Accessories,446,22,0.74,0,False,602
+MAT0010,Egyptian Cotton Fabric,Wood & Clay,859,8,0.28,0,False,3112
+MAT0002,Natural Wax,Natural Materials,256,7,0.24,0,False,1050
+MAT0003,Shea Butter,Oils & Herbs,304,4,0.15,0,False,1964
+MAT0004,Raw Silver,Oils & Herbs,141,4,0.16,0,False,859
+MAT0005,Raw Silver,Metals,479,4,0.16,0,False,2941
+MAT0006,Shea Butter,Wood & Clay,28,15,0.51,0,False,54
+MAT0007,Egyptian Cotton Fabric,Natural Materials,928,15,0.51,0,False,1819
+MAT0008,Raw Clay,Oils & Herbs,556,17,0.59,0,False,945
+MAT0009,Essential Oils,Fabrics,412,2,0.07,0,False,5743
+MAT0011,Genuine Leather,Fabrics,341,3,0.13,0,False,2668
+MAT0023,Jute Rope,Wood & Clay,395,16,0.55,0,False,719
+MAT0012,Wool Yarn,Natural Materials,885,17,0.59,0,False,1495
+MAT0013,Wool Yarn,Metals,718,0,0.02,0,False,31861
+MAT0016,Beech Wood,Fabrics,901,50,1.68,0,False,536
+MAT0018,Palm Leaves,Wood & Clay,414,32,1.08,0,False,385
+MAT0019,Embroidery Thread,Natural Materials,841,22,0.73,0,False,1145
+MAT0020,Raw Silver,Natural Materials,149,18,0.63,0,False,237
+MAT0021,Egyptian Cotton Fabric,Leather & Textiles,174,7,0.25,0,False,708
+MAT0022,Seashells,Leather & Textiles,683,15,0.52,0,False,1315
+MAT0049,Natural Wax,Fabrics,399,8,0.27,0,False,1469

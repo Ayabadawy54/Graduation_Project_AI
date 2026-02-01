@@ -1,0 +1,53 @@
+{
+  "elasticities": {
+    "Natural & Beauty": {
+      "elasticity": 0.248,
+      "type": "inelastic",
+      "avg_price": 1102.13,
+      "total_orders": 610
+    },
+    "Handmade & Crafts": {
+      "elasticity": -0.218,
+      "type": "inelastic",
+      "avg_price": 952.75,
+      "total_orders": 709
+    },
+    "Fashion & Accessories": {
+      "elasticity": -0.058,
+      "type": "inelastic",
+      "avg_price": 1022.37,
+      "total_orders": 681
+    }
+  },
+  "category_analysis": [
+    {
+      "category": "Natural & Beauty",
+      "total_products": 146,
+      "avg_price": 1053.93,
+      "min_price": 112.63,
+      "max_price": 1974.56,
+      "total_revenue": 1976807.08,
+      "avg_units_sold": 99.7
+    },
+    {
+      "category": "Handmade & Crafts",
+      "total_products": 167,
+      "avg_price": 995.44,
+      "min_price": 58.15,
+      "max_price": 1989.8,
+      "total_revenue": 2041677.22,
+      "avg_units_sold": 105.6
+    },
+    {
+      "category": "Fashion & Accessories",
+      "total_products": 187,
+      "avg_price": 1019.42,
+      "min_price": 53.08,
+      "max_price": 1998.14,
+      "total_revenue": 2107125.59,
+      "avg_units_sold": 100.9
+    }
+  ],
+  "version": "1.0.0",
+  "analyzed_date": "2026-01-31T22:45:52.849020"
+}

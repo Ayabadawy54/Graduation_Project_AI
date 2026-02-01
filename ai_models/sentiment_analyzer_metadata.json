@@ -1,0 +1,12 @@
+{
+  "model_name": "Sentiment Analyzer",
+  "version": "1.0.0",
+  "method": "VADER",
+  "analyzed_date": "2026-01-31T22:45:41.519104",
+  "total_reviews": 400,
+  "sentiment_distribution": {
+    "positive": 360,
+    "neutral": 12,
+    "negative": 28
+  }
+}

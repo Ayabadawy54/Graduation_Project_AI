@@ -1,0 +1,401 @@
+﻿review_id,order_id,product_id,customer_user_id,brand_id,rating,review_text,language,created_at,helpful_count,verified_purchase
+REV00000,ORD000197,PROD00071,USER00149,BRAND0015,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-02 23:19:00,15,True
+REV00001,ORD001071,PROD00440,USER00468,BRAND0033,1,Expected better quality for this price.,english,2025-10-31 23:47:00,27,True
+REV00002,ORD000899,PROD00091,USER00462,BRAND0002,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-09 10:02:00,8,True
+REV00003,ORD000082,PROD00218,USER00264,BRAND0064,5,Great product! Highly recommend. Quality is excellent!,english,2025-12-28 22:49:00,40,True
+REV00004,ORD000841,PROD00438,USER00573,BRAND0048,4,Great product! Highly recommend. Quality is excellent!,english,2025-10-29 08:30:00,34,True
+REV00005,ORD001127,PROD00447,USER00332,BRAND0098,4,Great product! Highly recommend. Quality is excellent!,english,2025-11-28 23:35:00,13,True
+REV00006,ORD000795,PROD00001,USER00235,BRAND0079,4,Perfect! Better than expected. Worth every penny.,english,2026-01-12 09:30:00,10,True
+REV00007,ORD001800,PROD00453,USER00367,BRAND0063,2,Poor quality. Not worth the price.,english,2025-11-13 20:15:00,1,True
+REV00008,ORD000510,PROD00026,USER00521,BRAND0027,2,Poor quality. Not worth the price.,english,2025-11-27 21:40:00,38,True
+REV00009,ORD001404,PROD00139,USER00495,BRAND0044,3,Good but expected better. Average quality.,english,2025-08-10 20:00:00,12,True
+REV00010,ORD001951,PROD00266,USER00223,BRAND0081,5,Excellent product and great customer service!,english,2026-02-03 22:53:00,23,True
+REV00011,ORD000948,PROD00176,USER00599,BRAND0050,4,Perfect! Better than expected. Worth every penny.,english,2026-01-18 20:26:00,14,True
+REV00012,ORD001425,PROD00484,USER00415,BRAND0099,5,Perfect! Better than expected. Worth every penny.,english,2025-11-13 23:21:00,11,True
+REV00013,ORD000988,PROD00448,USER00105,BRAND0025,5,Great product! Highly recommend. Quality is excellent!,english,2025-11-30 08:49:00,39,True
+REV00014,ORD001319,PROD00448,USER00179,BRAND0025,5,Excellent product and great customer service!,english,2026-01-08 23:23:00,8,True
+REV00015,ORD000679,PROD00150,USER00156,BRAND0037,5,Excellent product and great customer service!,english,2025-11-20 10:51:00,31,True
+REV00016,ORD001893,PROD00493,USER00370,BRAND0067,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-09-13 10:07:00,17,True
+REV00017,ORD001765,PROD00243,USER00393,BRAND0040,5,Perfect! Better than expected. Worth every penny.,english,2026-01-07 23:30:00,2,True
+REV00018,ORD000795,PROD00001,USER00235,BRAND0079,4,Perfect! Better than expected. Worth every penny.,english,2026-01-28 09:30:00,18,True
+REV00019,ORD001749,PROD00491,USER00577,BRAND0082,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-08 10:22:00,32,True
+REV00020,ORD000023,PROD00021,USER00259,BRAND0013,2,Not as described. Disappointed with the quality.,english,2025-08-07 23:31:00,35,True
+REV00021,ORD001042,PROD00207,USER00320,BRAND0067,2,Expected better quality for this price.,english,2025-12-28 08:46:00,40,True
+REV00022,ORD001511,PROD00199,USER00241,BRAND0057,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-01 22:25:00,18,True
+REV00023,ORD000733,PROD00022,USER00500,BRAND0089,5,Excellent product and great customer service!,english,2026-01-11 08:28:00,10,True
+REV00024,ORD001046,PROD00467,USER00416,BRAND0044,5,Perfect! Better than expected. Worth every penny.,english,2025-12-23 10:22:00,43,True
+REV00025,ORD001805,PROD00488,USER00191,BRAND0046,4,Great product! Highly recommend. Quality is excellent!,english,2025-11-25 11:56:00,39,True
+REV00026,ORD001203,PROD00382,USER00289,BRAND0066,4,Love it! Exactly as described. Very happy with my purchase.,english,2025-11-06 20:49:00,26,True
+REV00027,ORD000453,PROD00178,USER00425,BRAND0022,4,Amazing quality and fast delivery. Will buy again!,english,2025-12-30 08:08:00,26,True
+REV00028,ORD000177,PROD00140,USER00455,BRAND0043,2,Expected better quality for this price.,english,2026-02-17 11:38:00,8,True
+REV00029,ORD001637,PROD00488,USER00117,BRAND0046,4,Excellent product and great customer service!,english,2026-01-21 20:06:00,28,True
+REV00030,ORD000030,PROD00142,USER00229,BRAND0004,1,Expected better quality for this price.,english,2026-02-09 08:04:00,40,True
+REV00031,ORD000803,PROD00347,USER00378,BRAND0092,3,It's fine. Meets basic expectations.,english,2026-02-15 20:49:00,25,True
+REV00032,ORD001538,PROD00151,USER00339,BRAND0078,1,Poor quality. Not worth the price.,english,2026-01-30 11:44:00,4,True
+REV00033,ORD001351,PROD00238,USER00457,BRAND0019,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-03 23:35:00,4,True
+REV00034,ORD000774,PROD00272,USER00438,BRAND0016,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-13 11:15:00,0,True
+REV00035,ORD000612,PROD00194,USER00134,BRAND0075,2,Poor quality. Not worth the price.,english,2025-12-16 23:48:00,46,True
+REV00036,ORD000141,PROD00040,USER00582,BRAND0047,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-04 23:55:00,31,True
+REV00037,ORD000316,PROD00182,USER00334,BRAND0012,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-20 11:36:00,3,True
+REV00038,ORD000494,PROD00095,USER00157,BRAND0044,4,Excellent product and great customer service!,english,2025-11-30 09:36:00,3,True
+REV00039,ORD000942,PROD00106,USER00576,BRAND0045,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-14 22:16:00,19,True
+REV00040,ORD001343,PROD00299,USER00540,BRAND0051,2,Poor quality. Not worth the price.,english,2025-09-29 23:37:00,20,True
+REV00041,ORD000608,PROD00270,USER00356,BRAND0029,4,Perfect! Better than expected. Worth every penny.,english,2026-02-04 08:43:00,3,True
+REV00042,ORD001424,PROD00259,USER00253,BRAND0059,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-14 22:17:00,47,True
+REV00043,ORD001103,PROD00108,USER00464,BRAND0027,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-23 23:37:00,20,True
+REV00044,ORD000744,PROD00131,USER00171,BRAND0070,5,Excellent product and great customer service!,english,2026-02-11 11:29:00,3,True
+REV00045,ORD001380,PROD00209,USER00175,BRAND0048,4,Excellent product and great customer service!,english,2026-01-25 22:45:00,36,True
+REV00046,ORD000895,PROD00320,USER00440,BRAND0054,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-18 08:47:00,41,True
+REV00047,ORD000724,PROD00417,USER00451,BRAND0051,5,Perfect! Better than expected. Worth every penny.,english,2025-09-20 20:31:00,25,True
+REV00048,ORD001031,PROD00099,USER00582,BRAND0030,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-04 09:16:00,45,True
+REV00049,ORD001050,PROD00053,USER00461,BRAND0006,4,Amazing quality and fast delivery. Will buy again!,english,2026-02-02 09:12:00,21,True
+REV00050,ORD001904,PROD00379,USER00143,BRAND0033,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-07 21:10:00,15,True
+REV00051,ORD000339,PROD00302,USER00489,BRAND0017,3,Decent product. Delivery was a bit slow.,english,2025-02-24 10:54:00,38,True
+REV00052,ORD000681,PROD00401,USER00472,BRAND0093,4,Perfect! Better than expected. Worth every penny.,english,2025-10-01 09:06:00,25,True
+REV00053,ORD001837,PROD00069,USER00290,BRAND0066,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-08 20:18:00,43,True
+REV00054,ORD000650,PROD00367,USER00569,BRAND0069,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-23 22:38:00,47,True
+REV00055,ORD001500,PROD00115,USER00128,BRAND0043,5,Excellent product and great customer service!,english,2026-02-01 08:00:00,46,True
+REV00056,ORD001284,PROD00158,USER00473,BRAND0001,2,Delivery was very late. Product is just okay.,english,2026-02-03 10:31:00,0,True
+REV00057,ORD000074,PROD00097,USER00199,BRAND0050,5,Great product! Highly recommend. Quality is excellent!,english,2025-10-26 21:21:00,11,True
+REV00058,ORD001681,PROD00285,USER00204,BRAND0067,3,Decent product. Delivery was a bit slow.,english,2026-02-05 20:58:00,31,True
+REV00059,ORD001885,PROD00352,USER00225,BRAND0001,3,Good but expected better. Average quality.,english,2025-11-29 23:12:00,9,True
+REV00060,ORD001950,PROD00227,USER00509,BRAND0042,5,Perfect! Better than expected. Worth every penny.,english,2025-12-07 21:40:00,30,True
+REV00061,ORD001916,PROD00050,USER00406,BRAND0084,3,Good but expected better. Average quality.,english,2025-04-06 11:27:00,36,True
+REV00062,ORD000759,PROD00236,USER00499,BRAND0052,5,Excellent product and great customer service!,english,2026-01-06 10:21:00,16,True
+REV00063,ORD001654,PROD00172,USER00587,BRAND0090,1,Poor quality. Not worth the price.,english,2025-12-11 22:29:00,15,True
+REV00064,ORD000370,PROD00175,USER00526,BRAND0045,5,Excellent product and great customer service!,english,2026-01-20 10:38:00,29,True
+REV00065,ORD001309,PROD00448,USER00196,BRAND0025,4,Perfect! Better than expected. Worth every penny.,english,2026-02-13 10:44:00,11,True
+REV00066,ORD001510,PROD00443,USER00108,BRAND0082,3,It's fine. Meets basic expectations.,english,2026-01-28 20:15:00,15,True
+REV00067,ORD001965,PROD00047,USER00105,BRAND0052,5,Amazing quality and fast delivery. Will buy again!,english,2025-10-31 22:53:00,46,True
+REV00068,ORD000865,PROD00058,USER00245,BRAND0070,4,Love it! Exactly as described. Very happy with my purchase.,english,2025-09-08 09:37:00,9,True
+REV00069,ORD000137,PROD00472,USER00581,BRAND0085,1,Poor quality. Not worth the price.,english,2025-11-17 23:29:00,11,True
+REV00070,ORD000250,PROD00328,USER00530,BRAND0034,1,Not as described. Disappointed with the quality.,english,2026-02-01 08:38:00,44,True
+REV00071,ORD001024,PROD00047,USER00360,BRAND0052,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-02 22:21:00,39,True
+REV00072,ORD000399,PROD00100,USER00266,BRAND0055,3,Good but expected better. Average quality.,english,2025-09-20 22:24:00,17,True
+REV00073,ORD000297,PROD00143,USER00499,BRAND0063,3,Good but expected better. Average quality.,english,2026-01-30 11:28:00,31,True
+REV00074,ORD001344,PROD00170,USER00120,BRAND0094,5,Perfect! Better than expected. Worth every penny.,english,2026-01-11 10:12:00,33,True
+REV00075,ORD000356,PROD00307,USER00578,BRAND0056,2,Not as described. Disappointed with the quality.,english,2025-09-28 09:49:00,43,True
+REV00076,ORD001759,PROD00163,USER00595,BRAND0048,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-10 21:00:00,5,True
+REV00077,ORD000322,PROD00376,USER00319,BRAND0060,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-11 23:54:00,21,True
+REV00078,ORD001960,PROD00025,USER00232,BRAND0077,2,Expected better quality for this price.,english,2025-11-22 20:39:00,28,True
+REV00079,ORD000106,PROD00203,USER00581,BRAND0020,4,Perfect! Better than expected. Worth every penny.,english,2026-02-16 08:26:00,38,True
+REV00080,ORD001093,PROD00271,USER00229,BRAND0000,5,Amazing quality and fast delivery. Will buy again!,english,2026-01-31 23:39:00,14,True
+REV00081,ORD001721,PROD00154,USER00429,BRAND0023,2,Not as described. Disappointed with the quality.,english,2025-09-26 11:00:00,25,True
+REV00082,ORD001479,PROD00204,USER00234,BRAND0052,5,Amazing quality and fast delivery. Will buy again!,english,2025-10-01 21:07:00,43,True
+REV00083,ORD001927,PROD00038,USER00291,BRAND0081,3,It's fine. Meets basic expectations.,english,2025-12-15 10:43:00,46,True
+REV00084,ORD001316,PROD00401,USER00561,BRAND0093,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-28 22:36:00,28,True
+REV00085,ORD000892,PROD00385,USER00340,BRAND0077,4,Amazing quality and fast delivery. Will buy again!,english,2025-08-19 11:50:00,4,True
+REV00086,ORD000148,PROD00313,USER00484,BRAND0042,4,Perfect! Better than expected. Worth every penny.,english,2026-01-08 11:50:00,2,True
+REV00087,ORD000594,PROD00216,USER00556,BRAND0099,5,Excellent product and great customer service!,english,2026-02-07 09:36:00,19,True
+REV00088,ORD001361,PROD00382,USER00353,BRAND0066,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-12 23:10:00,28,True
+REV00089,ORD000681,PROD00401,USER00472,BRAND0093,1,Delivery was very late. Product is just okay.,english,2025-09-18 09:06:00,15,True
+REV00090,ORD001803,PROD00448,USER00215,BRAND0025,4,Great product! Highly recommend. Quality is excellent!,english,2025-12-11 23:25:00,39,True
+REV00091,ORD001950,PROD00227,USER00509,BRAND0042,4,Perfect! Better than expected. Worth every penny.,english,2025-12-01 21:40:00,50,True
+REV00092,ORD000288,PROD00041,USER00323,BRAND0007,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-23 20:24:00,46,True
+REV00093,ORD000577,PROD00034,USER00177,BRAND0098,5,Excellent product and great customer service!,english,2025-09-28 08:31:00,45,True
+REV00094,ORD000712,PROD00499,USER00253,BRAND0052,3,Product is okay. Nothing special.,english,2025-03-31 20:29:00,31,True
+REV00095,ORD001217,PROD00307,USER00152,BRAND0056,3,It's fine. Meets basic expectations.,english,2026-01-07 23:17:00,50,True
+REV00096,ORD001587,PROD00055,USER00543,BRAND0019,5,Perfect! Better than expected. Worth every penny.,english,2025-12-29 08:42:00,27,True
+REV00097,ORD001970,PROD00222,USER00280,BRAND0025,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-12 08:53:00,36,True
+REV00098,ORD000075,PROD00443,USER00518,BRAND0082,5,Excellent product and great customer service!,english,2026-01-30 11:08:00,10,True
+REV00099,ORD000824,PROD00263,USER00225,BRAND0026,1,Not as described. Disappointed with the quality.,english,2026-01-06 10:53:00,45,True
+REV00100,ORD000556,PROD00375,USER00464,BRAND0076,4,Perfect! Better than expected. Worth every penny.,english,2025-12-04 20:21:00,22,True
+REV00101,ORD000207,PROD00012,USER00398,BRAND0024,5,Excellent product and great customer service!,english,2026-02-05 21:28:00,50,True
+REV00102,ORD000107,PROD00016,USER00115,BRAND0060,3,It's fine. Meets basic expectations.,english,2025-12-03 20:17:00,4,True
+REV00103,ORD000740,PROD00206,USER00266,BRAND0009,3,It's fine. Meets basic expectations.,english,2025-10-03 20:00:00,20,True
+REV00104,ORD001721,PROD00154,USER00429,BRAND0023,4,Perfect! Better than expected. Worth every penny.,english,2025-09-10 11:00:00,6,True
+REV00105,ORD000163,PROD00123,USER00370,BRAND0041,4,Amazing quality and fast delivery. Will buy again!,english,2025-09-16 21:14:00,44,True
+REV00106,ORD001711,PROD00164,USER00462,BRAND0019,5,Excellent product and great customer service!,english,2026-02-12 22:50:00,36,True
+REV00107,ORD000370,PROD00175,USER00526,BRAND0045,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-17 10:38:00,38,True
+REV00108,ORD001680,PROD00203,USER00182,BRAND0020,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-14 11:27:00,45,True
+REV00109,ORD001070,PROD00417,USER00558,BRAND0051,4,Great product! Highly recommend. Quality is excellent!,english,2025-09-08 21:26:00,47,True
+REV00110,ORD000167,PROD00298,USER00600,BRAND0054,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-09-18 09:21:00,20,True
+REV00111,ORD000427,PROD00084,USER00103,BRAND0023,1,Delivery was very late. Product is just okay.,english,2025-11-20 10:24:00,44,True
+REV00112,ORD000427,PROD00084,USER00103,BRAND0023,5,Amazing quality and fast delivery. Will buy again!,english,2025-11-05 10:24:00,26,True
+REV00113,ORD001992,PROD00376,USER00599,BRAND0060,5,Excellent product and great customer service!,english,2026-01-31 22:57:00,13,True
+REV00114,ORD000245,PROD00208,USER00540,BRAND0057,2,Poor quality. Not worth the price.,english,2026-02-04 21:19:00,16,True
+REV00115,ORD001666,PROD00230,USER00213,BRAND0093,5,Great product! Highly recommend. Quality is excellent!,english,2025-09-29 23:51:00,6,True
+REV00116,ORD000818,PROD00013,USER00327,BRAND0012,3,Product is okay. Nothing special.,english,2024-11-19 22:13:00,6,True
+REV00117,ORD000411,PROD00494,USER00521,BRAND0032,4,Love it! Exactly as described. Very happy with my purchase.,english,2025-08-30 11:49:00,21,True
+REV00118,ORD001083,PROD00349,USER00509,BRAND0008,3,Product is okay. Nothing special.,english,2026-01-15 08:10:00,44,True
+REV00119,ORD000467,PROD00198,USER00258,BRAND0015,2,Expected better quality for this price.,english,2026-01-11 20:44:00,47,True
+REV00120,ORD000343,PROD00112,USER00293,BRAND0061,5,Amazing quality and fast delivery. Will buy again!,english,2025-08-23 11:50:00,12,True
+REV00121,ORD000253,PROD00096,USER00255,BRAND0066,5,Perfect! Better than expected. Worth every penny.,english,2025-11-03 09:50:00,19,True
+REV00122,ORD000429,PROD00102,USER00125,BRAND0098,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-05 22:45:00,40,True
+REV00123,ORD001610,PROD00371,USER00169,BRAND0007,3,It's fine. Meets basic expectations.,english,2026-02-18 23:10:00,29,True
+REV00124,ORD000626,PROD00476,USER00391,BRAND0031,5,Excellent product and great customer service!,english,2025-07-25 10:08:00,32,True
+REV00125,ORD000714,PROD00066,USER00266,BRAND0014,5,Perfect! Better than expected. Worth every penny.,english,2025-12-27 09:24:00,8,True
+REV00126,ORD000454,PROD00373,USER00287,BRAND0079,3,It's fine. Meets basic expectations.,english,2025-04-28 10:49:00,21,True
+REV00127,ORD000461,PROD00416,USER00305,BRAND0050,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-07 20:12:00,24,True
+REV00128,ORD001983,PROD00062,USER00155,BRAND0039,4,Excellent product and great customer service!,english,2025-12-17 22:13:00,4,True
+REV00129,ORD001247,PROD00361,USER00167,BRAND0016,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-20 08:02:00,46,True
+REV00130,ORD000097,PROD00412,USER00222,BRAND0047,3,Decent product. Delivery was a bit slow.,english,2026-01-01 23:02:00,19,True
+REV00131,ORD001139,PROD00400,USER00453,BRAND0093,4,Perfect! Better than expected. Worth every penny.,english,2025-11-21 09:15:00,34,True
+REV00132,ORD001528,PROD00337,USER00495,BRAND0088,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-10-20 22:35:00,1,True
+REV00133,ORD001970,PROD00222,USER00280,BRAND0025,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-17 08:53:00,27,True
+REV00134,ORD001683,PROD00105,USER00331,BRAND0099,5,Perfect! Better than expected. Worth every penny.,english,2025-11-21 22:15:00,36,True
+REV00135,ORD000632,PROD00192,USER00187,BRAND0065,5,Excellent product and great customer service!,english,2026-01-17 08:10:00,43,True
+REV00136,ORD001689,PROD00016,USER00139,BRAND0060,4,Great product! Highly recommend. Quality is excellent!,english,2026-02-19 10:09:00,39,True
+REV00137,ORD000261,PROD00327,USER00508,BRAND0092,5,Excellent product and great customer service!,english,2025-12-27 23:30:00,12,True
+REV00138,ORD000236,PROD00236,USER00229,BRAND0052,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-07 10:56:00,34,True
+REV00139,ORD000929,PROD00205,USER00311,BRAND0014,2,Poor quality. Not worth the price.,english,2026-01-21 23:18:00,5,True
+REV00140,ORD000277,PROD00373,USER00349,BRAND0079,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-27 20:04:00,6,True
+REV00141,ORD001090,PROD00201,USER00467,BRAND0068,4,Love it! Exactly as described. Very happy with my purchase.,english,2025-09-03 23:24:00,20,True
+REV00142,ORD000764,PROD00161,USER00474,BRAND0055,5,Perfect! Better than expected. Worth every penny.,english,2026-02-05 09:02:00,17,True
+REV00143,ORD001751,PROD00346,USER00567,BRAND0058,4,Perfect! Better than expected. Worth every penny.,english,2026-02-07 23:06:00,20,True
+REV00144,ORD000752,PROD00103,USER00413,BRAND0034,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-06 09:44:00,31,True
+REV00145,ORD001298,PROD00408,USER00437,BRAND0083,4,Amazing quality and fast delivery. Will buy again!,english,2025-12-04 20:04:00,30,True
+REV00146,ORD000308,PROD00130,USER00263,BRAND0037,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-09 22:42:00,3,True
+REV00147,ORD001715,PROD00246,USER00302,BRAND0028,4,Excellent product and great customer service!,english,2025-11-21 23:56:00,33,True
+REV00148,ORD001621,PROD00373,USER00149,BRAND0079,5,Excellent product and great customer service!,english,2025-12-10 09:58:00,33,True
+REV00149,ORD001409,PROD00465,USER00526,BRAND0038,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-11-27 22:10:00,3,True
+REV00150,ORD001326,PROD00213,USER00442,BRAND0053,4,Excellent product and great customer service!,english,2026-01-29 20:11:00,22,True
+REV00151,ORD000735,PROD00255,USER00453,BRAND0032,3,Product is okay. Nothing special.,english,2025-09-27 08:51:00,11,True
+REV00152,ORD000999,PROD00402,USER00280,BRAND0048,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-17 09:15:00,4,True
+REV00153,ORD001550,PROD00075,USER00499,BRAND0007,5,Perfect! Better than expected. Worth every penny.,english,2025-12-26 11:07:00,30,True
+REV00154,ORD001558,PROD00294,USER00174,BRAND0008,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-19 08:28:00,12,True
+REV00155,ORD000765,PROD00145,USER00195,BRAND0081,3,It's fine. Meets basic expectations.,english,2025-12-21 08:37:00,34,True
+REV00156,ORD000402,PROD00475,USER00268,BRAND0052,5,Great product! Highly recommend. Quality is excellent!,english,2025-09-07 09:07:00,49,True
+REV00157,ORD001596,PROD00258,USER00268,BRAND0015,3,Decent product. Delivery was a bit slow.,english,2026-02-19 22:56:00,30,True
+REV00158,ORD000881,PROD00211,USER00201,BRAND0072,5,Great product! Highly recommend. Quality is excellent!,english,2025-12-04 11:34:00,1,True
+REV00159,ORD000125,PROD00048,USER00322,BRAND0025,5,Excellent product and great customer service!,english,2026-01-29 21:32:00,2,True
+REV00160,ORD001275,PROD00319,USER00287,BRAND0021,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-06-19 08:26:00,17,True
+REV00161,ORD000405,PROD00319,USER00370,BRAND0021,3,Good but expected better. Average quality.,english,2025-10-08 09:25:00,41,True
+REV00162,ORD001150,PROD00121,USER00456,BRAND0074,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-01 11:53:00,44,True
+REV00163,ORD000388,PROD00080,USER00484,BRAND0007,4,Great product! Highly recommend. Quality is excellent!,english,2025-12-23 08:03:00,39,True
+REV00164,ORD001945,PROD00189,USER00381,BRAND0023,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-30 23:11:00,38,True
+REV00165,ORD000622,PROD00436,USER00445,BRAND0015,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-06 11:30:00,4,True
+REV00166,ORD001389,PROD00001,USER00332,BRAND0079,3,Product is okay. Nothing special.,english,2026-02-10 22:07:00,49,True
+REV00167,ORD001310,PROD00082,USER00318,BRAND0003,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-05 08:34:00,38,True
+REV00168,ORD001677,PROD00046,USER00540,BRAND0087,4,Excellent product and great customer service!,english,2026-01-21 21:13:00,36,True
+REV00169,ORD000912,PROD00099,USER00226,BRAND0030,5,Amazing quality and fast delivery. Will buy again!,english,2026-02-01 09:35:00,17,True
+REV00170,ORD000556,PROD00375,USER00464,BRAND0076,4,Amazing quality and fast delivery. Will buy again!,english,2025-11-30 20:21:00,17,True
+REV00171,ORD001306,PROD00310,USER00193,BRAND0098,2,Delivery was very late. Product is just okay.,english,2026-01-23 08:55:00,39,True
+REV00172,ORD000662,PROD00000,USER00117,BRAND0083,3,Product is okay. Nothing special.,english,2025-12-15 23:37:00,20,True
+REV00173,ORD001834,PROD00454,USER00383,BRAND0089,5,Excellent product and great customer service!,english,2025-12-15 20:07:00,22,True
+REV00174,ORD001688,PROD00150,USER00521,BRAND0037,5,Excellent product and great customer service!,english,2025-05-20 20:01:00,44,True
+REV00175,ORD000356,PROD00307,USER00578,BRAND0056,4,Perfect! Better than expected. Worth every penny.,english,2025-09-03 09:49:00,36,True
+REV00176,ORD001148,PROD00235,USER00163,BRAND0048,4,Amazing quality and fast delivery. Will buy again!,english,2026-02-13 21:18:00,16,True
+REV00177,ORD001705,PROD00338,USER00269,BRAND0080,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-10-26 22:14:00,40,True
+REV00178,ORD000035,PROD00171,USER00480,BRAND0028,5,Great product! Highly recommend. Quality is excellent!,english,2025-09-29 23:05:00,42,True
+REV00179,ORD000646,PROD00258,USER00509,BRAND0015,5,Great product! Highly recommend. Quality is excellent!,english,2025-11-03 08:55:00,45,True
+REV00180,ORD000122,PROD00121,USER00110,BRAND0074,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-08-07 20:11:00,41,True
+REV00181,ORD000879,PROD00082,USER00124,BRAND0003,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-03 21:06:00,14,True
+REV00182,ORD001242,PROD00349,USER00471,BRAND0008,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-15 20:31:00,33,True
+REV00183,ORD001597,PROD00072,USER00510,BRAND0042,5,Amazing quality and fast delivery. Will buy again!,english,2025-09-19 23:03:00,33,True
+REV00184,ORD000045,PROD00442,USER00564,BRAND0004,3,Product is okay. Nothing special.,english,2025-11-19 22:09:00,12,True
+REV00185,ORD001250,PROD00490,USER00266,BRAND0056,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-18 09:58:00,14,True
+REV00186,ORD001760,PROD00316,USER00469,BRAND0003,2,Expected better quality for this price.,english,2026-01-10 08:55:00,29,True
+REV00187,ORD001698,PROD00069,USER00137,BRAND0066,4,Perfect! Better than expected. Worth every penny.,english,2025-11-11 11:36:00,29,True
+REV00188,ORD000147,PROD00166,USER00419,BRAND0021,4,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-30 10:23:00,42,True
+REV00189,ORD001142,PROD00191,USER00515,BRAND0089,4,Perfect! Better than expected. Worth every penny.,english,2026-02-23 10:43:00,27,True
+REV00190,ORD001235,PROD00421,USER00500,BRAND0002,5,Perfect! Better than expected. Worth every penny.,english,2025-08-07 21:45:00,10,True
+REV00191,ORD001475,PROD00214,USER00261,BRAND0021,3,Good but expected better. Average quality.,english,2025-12-21 21:52:00,38,True
+REV00192,ORD000238,PROD00051,USER00427,BRAND0089,4,Perfect! Better than expected. Worth every penny.,english,2025-10-26 08:28:00,25,True
+REV00193,ORD000171,PROD00096,USER00357,BRAND0066,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-24 08:38:00,36,True
+REV00194,ORD000525,PROD00001,USER00112,BRAND0079,4,Amazing quality and fast delivery. Will buy again!,english,2026-02-08 21:38:00,49,True
+REV00195,ORD000134,PROD00183,USER00308,BRAND0093,3,It's fine. Meets basic expectations.,english,2025-12-22 11:54:00,47,True
+REV00196,ORD000756,PROD00222,USER00600,BRAND0025,5,Perfect! Better than expected. Worth every penny.,english,2026-01-08 10:26:00,45,True
+REV00197,ORD000709,PROD00257,USER00178,BRAND0085,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-31 11:50:00,29,True
+REV00198,ORD001227,PROD00361,USER00148,BRAND0016,4,Excellent product and great customer service!,english,2025-12-19 23:53:00,33,True
+REV00199,ORD001610,PROD00371,USER00169,BRAND0007,3,It's fine. Meets basic expectations.,english,2026-02-02 23:10:00,44,True
+REV00200,ORD000682,PROD00474,USER00167,BRAND0019,1,Expected better quality for this price.,english,2026-01-04 23:39:00,37,True
+REV00201,ORD000542,PROD00422,USER00291,BRAND0086,3,Product is okay. Nothing special.,english,2025-12-19 21:05:00,5,True
+REV00202,ORD001850,PROD00398,USER00391,BRAND0031,5,Perfect! Better than expected. Worth every penny.,english,2025-12-17 21:41:00,48,True
+REV00203,ORD000449,PROD00114,USER00492,BRAND0018,2,Poor quality. Not worth the price.,english,2025-10-02 20:19:00,49,True
+REV00204,ORD001656,PROD00096,USER00212,BRAND0066,2,Expected better quality for this price.,english,2025-11-16 10:27:00,23,True
+REV00205,ORD001878,PROD00415,USER00189,BRAND0058,5,Perfect! Better than expected. Worth every penny.,english,2025-09-22 22:07:00,26,True
+REV00206,ORD001882,PROD00489,USER00365,BRAND0067,5,Perfect! Better than expected. Worth every penny.,english,2026-02-02 21:40:00,1,True
+REV00207,ORD001924,PROD00211,USER00262,BRAND0072,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-23 22:37:00,8,True
+REV00208,ORD000665,PROD00297,USER00488,BRAND0065,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-20 23:34:00,41,True
+REV00209,ORD001440,PROD00031,USER00355,BRAND0085,4,Excellent product and great customer service!,english,2025-08-11 08:05:00,32,True
+REV00210,ORD001970,PROD00222,USER00280,BRAND0025,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-05 08:53:00,10,True
+REV00211,ORD000687,PROD00437,USER00579,BRAND0016,3,Product is okay. Nothing special.,english,2025-12-13 22:50:00,45,True
+REV00212,ORD001089,PROD00383,USER00313,BRAND0020,5,Excellent product and great customer service!,english,2026-01-27 09:22:00,17,True
+REV00213,ORD001158,PROD00422,USER00211,BRAND0086,5,Perfect! Better than expected. Worth every penny.,english,2025-12-28 20:30:00,40,True
+REV00214,ORD001992,PROD00376,USER00599,BRAND0060,4,Perfect! Better than expected. Worth every penny.,english,2026-01-30 22:57:00,29,True
+REV00215,ORD001598,PROD00148,USER00334,BRAND0062,5,Perfect! Better than expected. Worth every penny.,english,2025-12-25 08:44:00,45,True
+REV00216,ORD001409,PROD00465,USER00526,BRAND0038,3,It's fine. Meets basic expectations.,english,2025-11-19 22:10:00,31,True
+REV00217,ORD001004,PROD00298,USER00241,BRAND0054,4,Amazing quality and fast delivery. Will buy again!,english,2025-12-05 08:38:00,33,True
+REV00218,ORD000733,PROD00022,USER00500,BRAND0089,2,Not as described. Disappointed with the quality.,english,2026-01-25 08:28:00,28,True
+REV00219,ORD000210,PROD00368,USER00165,BRAND0053,5,Excellent product and great customer service!,english,2025-12-16 09:28:00,4,True
+REV00220,ORD001792,PROD00227,USER00352,BRAND0042,4,Great product! Highly recommend. Quality is excellent!,english,2025-12-22 09:05:00,31,True
+REV00221,ORD000695,PROD00170,USER00253,BRAND0094,5,Perfect! Better than expected. Worth every penny.,english,2025-12-27 08:31:00,19,True
+REV00222,ORD000629,PROD00227,USER00159,BRAND0042,4,Perfect! Better than expected. Worth every penny.,english,2025-09-29 08:17:00,45,True
+REV00223,ORD000750,PROD00154,USER00113,BRAND0023,5,Amazing quality and fast delivery. Will buy again!,english,2025-11-19 20:51:00,35,True
+REV00224,ORD001228,PROD00189,USER00197,BRAND0023,3,Decent product. Delivery was a bit slow.,english,2026-02-11 23:27:00,32,True
+REV00225,ORD000275,PROD00461,USER00426,BRAND0077,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-09 21:21:00,1,True
+REV00226,ORD000756,PROD00222,USER00600,BRAND0025,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-17 10:26:00,30,True
+REV00227,ORD000903,PROD00451,USER00487,BRAND0004,4,Amazing quality and fast delivery. Will buy again!,english,2026-01-12 10:43:00,37,True
+REV00228,ORD000862,PROD00412,USER00533,BRAND0047,4,Great product! Highly recommend. Quality is excellent!,english,2025-12-26 22:29:00,7,True
+REV00229,ORD001402,PROD00368,USER00456,BRAND0053,5,Perfect! Better than expected. Worth every penny.,english,2025-12-24 20:05:00,40,True
+REV00230,ORD001339,PROD00305,USER00355,BRAND0019,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-06 20:25:00,34,True
+REV00231,ORD000323,PROD00413,USER00501,BRAND0055,2,Expected better quality for this price.,english,2026-01-08 11:20:00,41,True
+REV00232,ORD000346,PROD00441,USER00183,BRAND0049,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-10 11:29:00,49,True
+REV00233,ORD000980,PROD00045,USER00203,BRAND0064,2,Not as described. Disappointed with the quality.,english,2026-01-23 20:38:00,31,True
+REV00234,ORD001226,PROD00187,USER00364,BRAND0026,1,Expected better quality for this price.,english,2026-02-08 21:18:00,45,True
+REV00235,ORD000790,PROD00189,USER00349,BRAND0023,5,Perfect! Better than expected. Worth every penny.,english,2026-01-20 11:13:00,7,True
+REV00236,ORD001987,PROD00145,USER00419,BRAND0081,1,Poor quality. Not worth the price.,english,2026-02-03 08:02:00,30,True
+REV00237,ORD001457,PROD00269,USER00498,BRAND0007,5,Perfect! Better than expected. Worth every penny.,english,2026-02-13 23:16:00,9,True
+REV00238,ORD000951,PROD00294,USER00175,BRAND0008,4,Perfect! Better than expected. Worth every penny.,english,2026-02-24 09:29:00,14,True
+REV00239,ORD001046,PROD00467,USER00416,BRAND0044,3,It's fine. Meets basic expectations.,english,2025-12-19 10:22:00,19,True
+REV00240,ORD001563,PROD00390,USER00193,BRAND0040,5,Excellent product and great customer service!,english,2026-01-31 20:13:00,2,True
+REV00241,ORD000682,PROD00474,USER00167,BRAND0019,3,Decent product. Delivery was a bit slow.,english,2025-12-31 23:39:00,26,True
+REV00242,ORD001461,PROD00326,USER00293,BRAND0012,4,Excellent product and great customer service!,english,2026-02-12 20:59:00,39,True
+REV00243,ORD000167,PROD00298,USER00600,BRAND0054,4,Perfect! Better than expected. Worth every penny.,english,2025-09-17 09:21:00,46,True
+REV00244,ORD001592,PROD00382,USER00409,BRAND0066,5,Amazing quality and fast delivery. Will buy again!,english,2025-10-20 09:31:00,22,True
+REV00245,ORD001878,PROD00415,USER00189,BRAND0058,5,Great product! Highly recommend. Quality is excellent!,english,2025-10-08 22:07:00,31,True
+REV00246,ORD000402,PROD00475,USER00268,BRAND0052,4,Great product! Highly recommend. Quality is excellent!,english,2025-09-15 09:07:00,10,True
+REV00247,ORD001787,PROD00208,USER00325,BRAND0057,5,Amazing quality and fast delivery. Will buy again!,english,2026-01-23 22:46:00,20,True
+REV00248,ORD001966,PROD00272,USER00196,BRAND0016,4,Great product! Highly recommend. Quality is excellent!,english,2026-02-08 11:19:00,49,True
+REV00249,ORD001045,PROD00490,USER00272,BRAND0056,4,Great product! Highly recommend. Quality is excellent!,english,2025-12-10 10:46:00,8,True
+REV00250,ORD000275,PROD00461,USER00426,BRAND0077,5,Perfect! Better than expected. Worth every penny.,english,2026-01-08 21:21:00,39,True
+REV00251,ORD000302,PROD00071,USER00246,BRAND0015,5,Amazing quality and fast delivery. Will buy again!,english,2026-02-06 08:24:00,17,True
+REV00252,ORD001177,PROD00256,USER00295,BRAND0010,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-10-08 23:45:00,2,True
+REV00253,ORD000699,PROD00160,USER00155,BRAND0097,4,Perfect! Better than expected. Worth every penny.,english,2026-02-01 11:54:00,13,True
+REV00254,ORD001630,PROD00411,USER00239,BRAND0005,2,Not as described. Disappointed with the quality.,english,2026-01-31 08:40:00,4,True
+REV00255,ORD000500,PROD00271,USER00446,BRAND0000,4,Excellent product and great customer service!,english,2026-01-22 22:01:00,41,True
+REV00256,ORD001798,PROD00138,USER00567,BRAND0074,5,Great product! Highly recommend. Quality is excellent!,english,2025-12-16 21:12:00,9,True
+REV00257,ORD001528,PROD00337,USER00495,BRAND0088,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-11-04 22:35:00,3,True
+REV00258,ORD000510,PROD00026,USER00521,BRAND0027,3,It's fine. Meets basic expectations.,english,2025-11-30 21:40:00,20,True
+REV00259,ORD001302,PROD00286,USER00296,BRAND0013,5,Excellent product and great customer service!,english,2025-12-15 11:02:00,49,True
+REV00260,ORD000137,PROD00472,USER00581,BRAND0085,4,Great product! Highly recommend. Quality is excellent!,english,2025-11-19 23:29:00,2,True
+REV00261,ORD001963,PROD00063,USER00235,BRAND0012,4,Excellent product and great customer service!,english,2026-02-13 23:07:00,28,True
+REV00262,ORD001692,PROD00159,USER00588,BRAND0005,5,Perfect! Better than expected. Worth every penny.,english,2026-01-03 23:08:00,9,True
+REV00263,ORD001458,PROD00020,USER00305,BRAND0039,3,Decent product. Delivery was a bit slow.,english,2026-02-04 22:33:00,49,True
+REV00264,ORD001867,PROD00096,USER00465,BRAND0066,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-01 11:38:00,32,True
+REV00265,ORD000699,PROD00160,USER00155,BRAND0097,3,It's fine. Meets basic expectations.,english,2026-01-30 11:54:00,36,True
+REV00266,ORD000048,PROD00322,USER00369,BRAND0052,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-31 11:16:00,48,True
+REV00267,ORD000926,PROD00087,USER00194,BRAND0035,5,Excellent product and great customer service!,english,2025-10-23 08:46:00,27,True
+REV00268,ORD000545,PROD00110,USER00304,BRAND0080,5,Great product! Highly recommend. Quality is excellent!,english,2025-11-22 09:48:00,27,True
+REV00269,ORD000845,PROD00296,USER00464,BRAND0024,3,Good but expected better. Average quality.,english,2025-05-24 11:26:00,20,True
+REV00270,ORD000758,PROD00245,USER00349,BRAND0035,4,Excellent product and great customer service!,english,2026-02-03 11:25:00,42,True
+REV00271,ORD000925,PROD00302,USER00463,BRAND0017,3,Product is okay. Nothing special.,english,2025-02-11 09:28:00,37,True
+REV00272,ORD000166,PROD00362,USER00590,BRAND0003,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-03 11:47:00,45,True
+REV00273,ORD000942,PROD00106,USER00576,BRAND0045,5,Perfect! Better than expected. Worth every penny.,english,2026-02-04 22:16:00,45,True
+REV00274,ORD000235,PROD00474,USER00371,BRAND0019,5,Excellent product and great customer service!,english,2026-01-11 22:17:00,6,True
+REV00275,ORD000341,PROD00399,USER00500,BRAND0002,4,Perfect! Better than expected. Worth every penny.,english,2026-02-20 20:27:00,47,True
+REV00276,ORD001866,PROD00362,USER00441,BRAND0003,3,Product is okay. Nothing special.,english,2026-01-14 20:34:00,36,True
+REV00277,ORD000544,PROD00096,USER00522,BRAND0066,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-28 10:35:00,23,True
+REV00278,ORD001534,PROD00205,USER00458,BRAND0014,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-11-12 20:34:00,10,True
+REV00279,ORD000883,PROD00442,USER00512,BRAND0004,5,Amazing quality and fast delivery. Will buy again!,english,2026-01-02 11:26:00,11,True
+REV00280,ORD000089,PROD00046,USER00115,BRAND0087,4,Excellent product and great customer service!,english,2026-01-04 23:23:00,47,True
+REV00281,ORD000110,PROD00193,USER00359,BRAND0009,4,Perfect! Better than expected. Worth every penny.,english,2026-02-05 23:37:00,40,True
+REV00282,ORD000540,PROD00256,USER00420,BRAND0010,5,Perfect! Better than expected. Worth every penny.,english,2025-05-21 09:59:00,37,True
+REV00283,ORD001005,PROD00137,USER00515,BRAND0066,4,Excellent product and great customer service!,english,2026-01-17 09:51:00,29,True
+REV00284,ORD001479,PROD00204,USER00234,BRAND0052,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-10-04 21:07:00,50,True
+REV00285,ORD000985,PROD00152,USER00586,BRAND0013,4,Excellent product and great customer service!,english,2026-01-10 11:28:00,16,True
+REV00286,ORD001685,PROD00184,USER00509,BRAND0089,4,Great product! Highly recommend. Quality is excellent!,english,2025-10-10 20:39:00,47,True
+REV00287,ORD000100,PROD00237,USER00534,BRAND0019,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-23 20:27:00,18,True
+REV00288,ORD000178,PROD00165,USER00493,BRAND0067,5,Excellent product and great customer service!,english,2026-01-15 22:55:00,47,True
+REV00289,ORD001390,PROD00405,USER00363,BRAND0097,5,Perfect! Better than expected. Worth every penny.,english,2025-12-19 23:45:00,27,True
+REV00290,ORD001970,PROD00222,USER00280,BRAND0025,2,Not as described. Disappointed with the quality.,english,2026-01-11 08:53:00,0,True
+REV00291,ORD000596,PROD00255,USER00197,BRAND0032,5,Amazing quality and fast delivery. Will buy again!,english,2026-01-24 23:07:00,32,True
+REV00292,ORD001670,PROD00082,USER00329,BRAND0003,5,Excellent product and great customer service!,english,2026-01-29 20:56:00,35,True
+REV00293,ORD000618,PROD00017,USER00230,BRAND0027,2,Delivery was very late. Product is just okay.,english,2025-10-08 10:29:00,6,True
+REV00294,ORD001456,PROD00151,USER00237,BRAND0078,3,Decent product. Delivery was a bit slow.,english,2026-02-01 23:57:00,17,True
+REV00295,ORD001880,PROD00329,USER00263,BRAND0019,5,Excellent product and great customer service!,english,2026-01-28 08:23:00,3,True
+REV00296,ORD000528,PROD00011,USER00192,BRAND0009,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-13 20:13:00,35,True
+REV00297,ORD001986,PROD00165,USER00441,BRAND0067,3,It's fine. Meets basic expectations.,english,2026-02-21 10:26:00,28,True
+REV00298,ORD000109,PROD00251,USER00177,BRAND0001,3,Good but expected better. Average quality.,english,2025-12-18 09:39:00,46,True
+REV00299,ORD001172,PROD00482,USER00173,BRAND0036,5,Perfect! Better than expected. Worth every penny.,english,2025-10-19 21:16:00,18,True
+REV00300,ORD001585,PROD00209,USER00162,BRAND0048,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-05 08:29:00,49,True
+REV00301,ORD001501,PROD00182,USER00257,BRAND0012,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-31 10:21:00,40,True
+REV00302,ORD001482,PROD00415,USER00417,BRAND0058,4,Great product! Highly recommend. Quality is excellent!,english,2025-08-11 20:02:00,46,True
+REV00303,ORD001649,PROD00207,USER00207,BRAND0067,5,Excellent product and great customer service!,english,2025-12-17 23:22:00,11,True
+REV00304,ORD001797,PROD00458,USER00483,BRAND0053,2,Poor quality. Not worth the price.,english,2026-02-08 08:03:00,24,True
+REV00305,ORD000889,PROD00325,USER00346,BRAND0058,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-23 09:51:00,47,True
+REV00306,ORD001879,PROD00034,USER00300,BRAND0098,4,Excellent product and great customer service!,english,2025-10-15 09:28:00,27,True
+REV00307,ORD000504,PROD00425,USER00536,BRAND0070,5,Great product! Highly recommend. Quality is excellent!,english,2025-09-24 08:31:00,20,True
+REV00308,ORD000592,PROD00049,USER00212,BRAND0064,5,Amazing quality and fast delivery. Will buy again!,english,2025-11-03 10:52:00,11,True
+REV00309,ORD000483,PROD00015,USER00236,BRAND0030,5,Great product! Highly recommend. Quality is excellent!,english,2025-12-31 23:11:00,50,True
+REV00310,ORD000310,PROD00202,USER00460,BRAND0004,5,Amazing quality and fast delivery. Will buy again!,english,2026-01-31 22:42:00,43,True
+REV00311,ORD000151,PROD00254,USER00226,BRAND0041,5,Amazing quality and fast delivery. Will buy again!,english,2026-01-23 23:21:00,39,True
+REV00312,ORD000710,PROD00446,USER00596,BRAND0085,4,Great product! Highly recommend. Quality is excellent!,english,2025-11-24 08:32:00,13,True
+REV00313,ORD001965,PROD00047,USER00105,BRAND0052,5,Excellent product and great customer service!,english,2025-11-10 22:53:00,14,True
+REV00314,ORD000551,PROD00458,USER00404,BRAND0053,5,Excellent product and great customer service!,english,2026-02-07 09:02:00,39,True
+REV00315,ORD000741,PROD00097,USER00459,BRAND0050,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-07 11:26:00,28,True
+REV00316,ORD000251,PROD00359,USER00205,BRAND0084,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-03 22:52:00,40,True
+REV00317,ORD001861,PROD00333,USER00237,BRAND0017,4,Excellent product and great customer service!,english,2025-05-22 21:58:00,17,True
+REV00318,ORD000763,PROD00101,USER00140,BRAND0011,3,Good but expected better. Average quality.,english,2026-01-06 10:18:00,15,True
+REV00319,ORD000764,PROD00161,USER00474,BRAND0055,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-25 09:02:00,29,True
+REV00320,ORD001314,PROD00444,USER00588,BRAND0028,4,Excellent product and great customer service!,english,2025-08-17 22:16:00,23,True
+REV00321,ORD000524,PROD00051,USER00296,BRAND0089,4,Love it! Exactly as described. Very happy with my purchase.,english,2025-11-19 23:35:00,24,True
+REV00322,ORD001325,PROD00337,USER00470,BRAND0088,5,Great product! Highly recommend. Quality is excellent!,english,2025-10-05 20:51:00,24,True
+REV00323,ORD000407,PROD00213,USER00252,BRAND0053,3,Good but expected better. Average quality.,english,2026-01-14 09:07:00,13,True
+REV00324,ORD001506,PROD00328,USER00360,BRAND0034,2,Delivery was very late. Product is just okay.,english,2026-02-18 11:50:00,41,True
+REV00325,ORD000895,PROD00320,USER00440,BRAND0054,4,Perfect! Better than expected. Worth every penny.,english,2026-02-14 08:47:00,21,True
+REV00326,ORD001386,PROD00120,USER00180,BRAND0051,4,Amazing quality and fast delivery. Will buy again!,english,2025-05-18 11:10:00,11,True
+REV00327,ORD000854,PROD00187,USER00336,BRAND0026,4,Excellent product and great customer service!,english,2026-01-16 11:47:00,16,True
+REV00328,ORD001433,PROD00410,USER00283,BRAND0007,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-21 22:17:00,2,True
+REV00329,ORD000340,PROD00442,USER00186,BRAND0004,1,Delivery was very late. Product is just okay.,english,2025-12-05 22:47:00,11,True
+REV00330,ORD001724,PROD00055,USER00567,BRAND0019,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-01-12 23:28:00,4,True
+REV00331,ORD000432,PROD00071,USER00421,BRAND0015,5,Amazing quality and fast delivery. Will buy again!,english,2026-02-16 21:42:00,50,True
+REV00332,ORD001064,PROD00000,USER00250,BRAND0083,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-27 23:42:00,43,True
+REV00333,ORD000626,PROD00476,USER00391,BRAND0031,3,It's fine. Meets basic expectations.,english,2025-08-07 10:08:00,9,True
+REV00334,ORD000355,PROD00302,USER00228,BRAND0017,3,Good but expected better. Average quality.,english,2025-01-13 21:55:00,0,True
+REV00335,ORD001782,PROD00483,USER00404,BRAND0021,4,Amazing quality and fast delivery. Will buy again!,english,2025-12-17 20:35:00,4,True
+REV00336,ORD000795,PROD00001,USER00235,BRAND0079,3,Decent product. Delivery was a bit slow.,english,2026-01-17 09:30:00,24,True
+REV00337,ORD001153,PROD00122,USER00485,BRAND0074,5,Great product! Highly recommend. Quality is excellent!,english,2025-12-11 11:26:00,43,True
+REV00338,ORD001994,PROD00102,USER00558,BRAND0098,4,Perfect! Better than expected. Worth every penny.,english,2026-02-12 08:21:00,12,True
+REV00339,ORD001744,PROD00007,USER00539,BRAND0080,2,Not as described. Disappointed with the quality.,english,2025-11-11 09:50:00,16,True
+REV00340,ORD001148,PROD00235,USER00163,BRAND0048,5,Perfect! Better than expected. Worth every penny.,english,2026-02-09 21:18:00,33,True
+REV00341,ORD001891,PROD00122,USER00584,BRAND0074,4,Perfect! Better than expected. Worth every penny.,english,2026-01-17 23:34:00,20,True
+REV00342,ORD000657,PROD00189,USER00109,BRAND0023,3,Good but expected better. Average quality.,english,2025-10-19 11:20:00,44,True
+REV00343,ORD001022,PROD00316,USER00194,BRAND0003,1,Not as described. Disappointed with the quality.,english,2025-12-30 08:53:00,20,True
+REV00344,ORD000069,PROD00217,USER00507,BRAND0088,3,It's fine. Meets basic expectations.,english,2026-01-08 11:48:00,41,True
+REV00345,ORD000865,PROD00058,USER00245,BRAND0070,4,Great product! Highly recommend. Quality is excellent!,english,2025-09-04 09:37:00,12,True
+REV00346,ORD000110,PROD00193,USER00359,BRAND0009,2,Delivery was very late. Product is just okay.,english,2026-02-10 23:37:00,3,True
+REV00347,ORD000784,PROD00078,USER00150,BRAND0066,2,Expected better quality for this price.,english,2026-01-30 10:00:00,5,True
+REV00348,ORD000327,PROD00495,USER00300,BRAND0080,4,Perfect! Better than expected. Worth every penny.,english,2026-01-05 10:20:00,20,True
+REV00349,ORD000341,PROD00399,USER00500,BRAND0002,2,Not as described. Disappointed with the quality.,english,2026-02-04 20:27:00,14,True
+REV00350,ORD001489,PROD00004,USER00228,BRAND0094,4,Perfect! Better than expected. Worth every penny.,english,2025-12-08 11:27:00,10,True
+REV00351,ORD000436,PROD00126,USER00338,BRAND0034,5,Great product! Highly recommend. Quality is excellent!,english,2025-12-08 20:13:00,35,True
+REV00352,ORD001689,PROD00016,USER00139,BRAND0060,2,Expected better quality for this price.,english,2026-01-26 10:09:00,2,True
+REV00353,ORD000951,PROD00294,USER00175,BRAND0008,5,Excellent product and great customer service!,english,2026-02-16 09:29:00,33,True
+REV00354,ORD000320,PROD00447,USER00303,BRAND0098,4,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-01 20:49:00,21,True
+REV00355,ORD001140,PROD00267,USER00283,BRAND0043,5,Great product! Highly recommend. Quality is excellent!,english,2025-03-31 09:13:00,41,True
+REV00356,ORD001846,PROD00487,USER00594,BRAND0024,4,Great product! Highly recommend. Quality is excellent!,english,2025-07-28 09:35:00,27,True
+REV00357,ORD000621,PROD00438,USER00484,BRAND0048,5,Amazing quality and fast delivery. Will buy again!,english,2025-12-21 21:27:00,46,True
+REV00358,ORD001338,PROD00187,USER00584,BRAND0026,2,Delivery was very late. Product is just okay.,english,2026-01-17 23:27:00,45,True
+REV00359,ORD001309,PROD00448,USER00196,BRAND0025,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-05 10:44:00,2,True
+REV00360,ORD000317,PROD00244,USER00212,BRAND0045,2,Poor quality. Not worth the price.,english,2025-12-15 09:18:00,11,True
+REV00361,ORD000109,PROD00251,USER00177,BRAND0001,5,Excellent product and great customer service!,english,2025-12-27 09:39:00,21,True
+REV00362,ORD001383,PROD00332,USER00345,BRAND0053,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-10-07 09:09:00,44,True
+REV00363,ORD001742,PROD00409,USER00481,BRAND0060,1,Delivery was very late. Product is just okay.,english,2026-02-11 22:48:00,8,True
+REV00364,ORD000405,PROD00319,USER00370,BRAND0021,3,Product is okay. Nothing special.,english,2025-09-25 09:25:00,18,True
+REV00365,ORD001908,PROD00270,USER00425,BRAND0029,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-08 21:28:00,26,True
+REV00366,ORD000367,PROD00115,USER00121,BRAND0043,4,Great product! Highly recommend. Quality is excellent!,english,2026-02-06 08:20:00,4,True
+REV00367,ORD000005,PROD00130,USER00197,BRAND0037,3,Good but expected better. Average quality.,english,2025-12-30 23:13:00,6,True
+REV00368,ORD000543,PROD00325,USER00147,BRAND0058,5,Excellent product and great customer service!,english,2026-01-10 22:34:00,15,True
+REV00369,ORD000233,PROD00050,USER00536,BRAND0084,3,Good but expected better. Average quality.,english,2026-01-09 10:34:00,8,True
+REV00370,ORD000985,PROD00152,USER00586,BRAND0013,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-12-20 11:28:00,2,True
+REV00371,ORD001349,PROD00114,USER00477,BRAND0018,5,Amazing quality and fast delivery. Will buy again!,english,2025-08-25 21:14:00,37,True
+REV00372,ORD001959,PROD00050,USER00577,BRAND0084,2,Poor quality. Not worth the price.,english,2026-01-04 08:36:00,23,True
+REV00373,ORD000763,PROD00101,USER00140,BRAND0011,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-03 10:18:00,42,True
+REV00374,ORD001995,PROD00244,USER00580,BRAND0045,5,Great product! Highly recommend. Quality is excellent!,english,2026-01-07 08:03:00,4,True
+REV00375,ORD001803,PROD00448,USER00215,BRAND0025,2,Poor quality. Not worth the price.,english,2025-12-09 23:25:00,34,True
+REV00376,ORD000738,PROD00068,USER00109,BRAND0074,4,Amazing quality and fast delivery. Will buy again!,english,2025-12-15 20:09:00,6,True
+REV00377,ORD000714,PROD00066,USER00266,BRAND0014,3,Good but expected better. Average quality.,english,2026-01-03 09:24:00,11,True
+REV00378,ORD001423,PROD00458,USER00390,BRAND0053,4,Great product! Highly recommend. Quality is excellent!,english,2026-02-14 10:17:00,13,True
+REV00379,ORD001087,PROD00297,USER00164,BRAND0065,3,Decent product. Delivery was a bit slow.,english,2026-01-27 09:41:00,26,True
+REV00380,ORD000448,PROD00076,USER00411,BRAND0074,5,Love it! Exactly as described. Very happy with my purchase.,english,2025-08-25 21:37:00,13,True
+REV00381,ORD001345,PROD00033,USER00415,BRAND0042,4,Perfect! Better than expected. Worth every penny.,english,2025-12-30 21:28:00,19,True
+REV00382,ORD001739,PROD00018,USER00440,BRAND0010,5,Love it! Exactly as described. Very happy with my purchase.,english,2026-02-10 11:34:00,28,True
+REV00383,ORD001083,PROD00349,USER00509,BRAND0008,4,Great product! Highly recommend. Quality is excellent!,english,2026-01-20 08:10:00,16,True
+REV00384,ORD000852,PROD00362,USER00210,BRAND0003,4,Excellent product and great customer service!,english,2026-02-09 10:36:00,12,True
+REV00385,ORD000367,PROD00115,USER00121,BRAND0043,3,Product is okay. Nothing special.,english,2026-02-19 08:20:00,37,True
+REV00386,ORD000994,PROD00234,USER00188,BRAND0086,5,Amazing quality and fast delivery. Will buy again!,english,2026-02-08 21:47:00,48,True
+REV00387,ORD001554,PROD00411,USER00451,BRAND0005,4,Excellent product and great customer service!,english,2025-10-20 22:35:00,15,True
+REV00388,ORD001291,PROD00339,USER00357,BRAND0031,3,Decent product. Delivery was a bit slow.,english,2025-07-23 21:06:00,39,True
+REV00389,ORD000740,PROD00206,USER00266,BRAND0009,4,Amazing quality and fast delivery. Will buy again!,english,2025-10-06 20:00:00,25,True
+REV00390,ORD000709,PROD00257,USER00178,BRAND0085,5,Great product! Highly recommend. Quality is excellent!,english,2026-02-05 11:50:00,44,True
+REV00391,ORD001223,PROD00237,USER00413,BRAND0019,3,It's fine. Meets basic expectations.,english,2026-01-16 21:58:00,23,True
+REV00392,ORD001384,PROD00452,USER00537,BRAND0017,5,Perfect! Better than expected. Worth every penny.,english,2026-02-05 23:01:00,4,True
+REV00393,ORD001084,PROD00004,USER00237,BRAND0094,3,It's fine. Meets basic expectations.,english,2025-12-26 11:42:00,23,True
+REV00394,ORD000633,PROD00069,USER00501,BRAND0066,5,Perfect! Better than expected. Worth every penny.,english,2025-11-14 23:42:00,39,True
+REV00395,ORD000394,PROD00120,USER00495,BRAND0051,5,Excellent product and great customer service!,english,2025-06-10 08:57:00,6,True
+REV00396,ORD001317,PROD00328,USER00488,BRAND0034,3,Decent product. Delivery was a bit slow.,english,2026-01-25 21:37:00,15,True
+REV00397,ORD000316,PROD00182,USER00334,BRAND0012,4,Perfect! Better than expected. Worth every penny.,english,2025-12-29 11:36:00,23,True
+REV00398,ORD000307,PROD00201,USER00129,BRAND0068,3,It's fine. Meets basic expectations.,english,2026-02-10 20:57:00,17,True
+REV00399,ORD001360,PROD00307,USER00210,BRAND0056,5,Excellent product and great customer service!,english,2025-12-13 11:42:00,46,True

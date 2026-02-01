@@ -1,0 +1,24 @@
+{
+  "model_name": "Owner Risk Scoring Model",
+  "version": "1.0.0",
+  "trained_date": "2026-01-31T22:45:41.307485",
+  "total_samples": 99,
+  "features": [
+    "return_rate",
+    "fulfillment_rate",
+    "avg_rating",
+    "rating_variance",
+    "profile_complete",
+    "verified",
+    "total_orders",
+    "avg_order_value",
+    "days_on_platform",
+    "review_count",
+    "total_sales"
+  ],
+  "performance": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "roc_auc": 1.0
+  }
+}

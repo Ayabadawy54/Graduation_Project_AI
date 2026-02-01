@@ -1,0 +1,7 @@
+{
+  "model_name": "Fraud Detector",
+  "version": "1.0.0",
+  "trained_date": "2026-01-31T22:51:42.050837",
+  "suspicious_orders": 100,
+  "suspicious_reviews": 0
+}

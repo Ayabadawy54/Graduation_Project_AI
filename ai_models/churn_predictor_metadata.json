@@ -1,0 +1,10 @@
+{
+  "model_name": "Customer Churn Predictor",
+  "version": "1.0.0",
+  "trained_date": "2026-01-31T22:45:52.578635",
+  "performance": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "roc_auc": 1.0
+  }
+}

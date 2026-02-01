@@ -1,0 +1,201 @@
+﻿action_id,admin_user_id,action_type,target_type,target_id,reason,created_at
+ACT00000,ADMIN002,verify_brand,brand,BRAND0088,Benefit can money.,2025-01-12 00:00:00
+ACT00001,ADMIN002,reject_product,product,PROD00448,Commercial process claim production four political structure note.,2025-06-10 00:00:00
+ACT00002,ADMIN002,update_product_status,product,PROD00418,,2025-07-01 00:00:00
+ACT00003,ADMIN002,resolve_ticket,ticket,TICKET00087,Friend serve page win bring.,2025-02-22 00:00:00
+ACT00004,ADMIN002,resolve_ticket,ticket,TICKET00147,Young contain exactly say mind impact major.,2026-01-24 00:00:00
+ACT00005,ADMIN001,suspend_brand,brand,BRAND0070,,2026-01-13 00:00:00
+ACT00006,ADMIN003,verify_brand,brand,BRAND0094,,2024-10-02 00:00:00
+ACT00007,ADMIN002,approve_product,product,PROD00112,,2024-10-20 00:00:00
+ACT00008,ADMIN001,verify_brand,brand,BRAND0010,Experience tonight Mr whom team than.,2026-01-14 00:00:00
+ACT00009,ADMIN003,reject_product,product,PROD00311,,2025-06-28 00:00:00
+ACT00010,ADMIN002,resolve_ticket,ticket,TICKET00083,Oil guy heavy toward about country politics.,2024-10-25 00:00:00
+ACT00011,ADMIN001,update_product_status,product,PROD00240,Our hot to.,2024-10-08 00:00:00
+ACT00012,ADMIN002,suspend_brand,brand,BRAND0004,Heavy can way travel return.,2024-12-01 00:00:00
+ACT00013,ADMIN001,resolve_ticket,ticket,TICKET00119,Institution style clearly attention second trial.,2024-06-23 00:00:00
+ACT00014,ADMIN002,resolve_ticket,ticket,TICKET00067,Investment onto factor speech protect.,2025-01-07 00:00:00
+ACT00015,ADMIN003,verify_brand,brand,BRAND0038,Likely late lawyer name scientist reality create.,2024-10-20 00:00:00
+ACT00016,ADMIN001,approve_product,product,PROD00230,Choose evidence coach civil control civil morning.,2025-04-05 00:00:00
+ACT00017,ADMIN003,suspend_brand,brand,BRAND0089,,2024-06-05 00:00:00
+ACT00018,ADMIN001,reject_product,product,PROD00404,Culture result bar matter until.,2025-03-27 00:00:00
+ACT00019,ADMIN002,suspend_brand,brand,BRAND0071,Return design over agreement.,2024-06-07 00:00:00
+ACT00020,ADMIN002,verify_brand,brand,BRAND0070,Magazine agree ok relate.,2026-01-02 00:00:00
+ACT00021,ADMIN001,suspend_brand,brand,BRAND0034,,2025-11-15 00:00:00
+ACT00022,ADMIN003,verify_brand,brand,BRAND0069,There reach your.,2025-09-13 00:00:00
+ACT00023,ADMIN001,approve_product,product,PROD00315,,2025-11-25 00:00:00
+ACT00024,ADMIN001,reject_product,product,PROD00373,,2025-12-21 00:00:00
+ACT00025,ADMIN001,update_product_status,product,PROD00330,Avoid find under control would.,2024-12-15 00:00:00
+ACT00026,ADMIN003,suspend_brand,brand,BRAND0004,Specific hold push mission station.,2024-11-07 00:00:00
+ACT00027,ADMIN001,update_product_status,product,PROD00238,Determine relationship toward recently give evidence training.,2025-03-04 00:00:00
+ACT00028,ADMIN001,verify_brand,brand,BRAND0082,Reality cultural west everything good culture garden standard.,2025-07-10 00:00:00
+ACT00029,ADMIN002,suspend_brand,brand,BRAND0051,Debate mission meet wall half.,2025-08-30 00:00:00
+ACT00030,ADMIN002,approve_product,product,PROD00107,,2025-01-11 00:00:00
+ACT00031,ADMIN001,update_product_status,product,PROD00372,Bag town unit against drug allow police environmental.,2025-11-15 00:00:00
+ACT00032,ADMIN001,suspend_brand,brand,BRAND0020,,2024-08-08 00:00:00
+ACT00033,ADMIN001,reject_product,product,PROD00036,,2024-07-21 00:00:00
+ACT00034,ADMIN003,update_product_status,product,PROD00169,Lot now arrive record continue speak local.,2025-10-29 00:00:00
+ACT00035,ADMIN001,verify_brand,brand,BRAND0093,,2025-02-15 00:00:00
+ACT00036,ADMIN001,resolve_ticket,ticket,TICKET00062,,2025-01-04 00:00:00
+ACT00037,ADMIN002,suspend_brand,brand,BRAND0089,Consider recently course accept above.,2025-06-26 00:00:00
+ACT00038,ADMIN003,approve_product,product,PROD00119,,2025-12-06 00:00:00
+ACT00039,ADMIN002,resolve_ticket,ticket,TICKET00035,,2024-08-27 00:00:00
+ACT00040,ADMIN001,update_product_status,product,PROD00448,,2025-05-10 00:00:00
+ACT00041,ADMIN003,update_product_status,product,PROD00138,,2025-03-20 00:00:00
+ACT00042,ADMIN003,suspend_brand,brand,BRAND0077,,2025-12-28 00:00:00
+ACT00043,ADMIN002,verify_brand,brand,BRAND0046,,2024-07-24 00:00:00
+ACT00044,ADMIN001,approve_product,product,PROD00203,,2025-06-14 00:00:00
+ACT00045,ADMIN003,approve_product,product,PROD00177,Them audience job spend me fear.,2025-06-19 00:00:00
+ACT00046,ADMIN003,approve_product,product,PROD00418,Expect rest send collection people especially economic.,2024-06-01 00:00:00
+ACT00047,ADMIN001,approve_product,product,PROD00271,West herself guy new side number.,2025-03-26 00:00:00
+ACT00048,ADMIN001,suspend_brand,brand,BRAND0035,,2025-11-26 00:00:00
+ACT00049,ADMIN003,update_product_status,product,PROD00306,Leader voice very a.,2024-08-01 00:00:00
+ACT00050,ADMIN001,resolve_ticket,ticket,TICKET00017,,2025-11-19 00:00:00
+ACT00051,ADMIN003,update_product_status,product,PROD00357,Four candidate raise sort.,2024-07-07 00:00:00
+ACT00052,ADMIN002,verify_brand,brand,BRAND0060,Throughout billion book property throughout.,2024-08-02 00:00:00
+ACT00053,ADMIN001,verify_brand,brand,BRAND0026,,2024-08-05 00:00:00
+ACT00054,ADMIN002,verify_brand,brand,BRAND0066,,2025-11-04 00:00:00
+ACT00055,ADMIN001,verify_brand,brand,BRAND0080,Great improve president without central process.,2025-05-05 00:00:00
+ACT00056,ADMIN003,reject_product,product,PROD00321,Inside population ago positive now enter any.,2024-09-14 00:00:00
+ACT00057,ADMIN003,verify_brand,brand,BRAND0079,Nothing few along customer start color.,2025-10-02 00:00:00
+ACT00058,ADMIN002,verify_brand,brand,BRAND0083,,2025-10-31 00:00:00
+ACT00059,ADMIN001,approve_product,product,PROD00224,,2024-06-13 00:00:00
+ACT00060,ADMIN002,approve_product,product,PROD00054,Success foot cup resource age.,2025-04-22 00:00:00
+ACT00061,ADMIN002,suspend_brand,brand,BRAND0080,,2025-10-12 00:00:00
+ACT00062,ADMIN003,suspend_brand,brand,BRAND0096,,2024-09-02 00:00:00
+ACT00063,ADMIN001,resolve_ticket,ticket,TICKET00139,,2025-09-17 00:00:00
+ACT00064,ADMIN001,update_product_status,product,PROD00422,,2025-11-22 00:00:00
+ACT00065,ADMIN003,update_product_status,product,PROD00112,Establish risk different within plant far.,2024-12-27 00:00:00
+ACT00066,ADMIN003,suspend_brand,brand,BRAND0050,,2024-09-04 00:00:00
+ACT00067,ADMIN002,approve_product,product,PROD00476,Fear around program thus short.,2025-07-04 00:00:00
+ACT00068,ADMIN003,suspend_brand,brand,BRAND0011,Long generation threat represent couple.,2024-09-24 00:00:00
+ACT00069,ADMIN003,approve_product,product,PROD00140,Amount assume put very.,2025-06-30 00:00:00
+ACT00070,ADMIN002,suspend_brand,brand,BRAND0099,Easy travel people throw half risk way.,2025-11-16 00:00:00
+ACT00071,ADMIN003,reject_product,product,PROD00304,,2025-07-29 00:00:00
+ACT00072,ADMIN002,approve_product,product,PROD00294,Clear guy scene side.,2025-04-25 00:00:00
+ACT00073,ADMIN002,approve_product,product,PROD00229,Only example near article just.,2025-12-02 00:00:00
+ACT00074,ADMIN002,reject_product,product,PROD00000,,2025-06-01 00:00:00
+ACT00075,ADMIN003,update_product_status,product,PROD00378,,2025-05-23 00:00:00
+ACT00076,ADMIN002,suspend_brand,brand,BRAND0051,,2024-11-01 00:00:00
+ACT00077,ADMIN002,resolve_ticket,ticket,TICKET00088,,2025-02-01 00:00:00
+ACT00078,ADMIN003,reject_product,product,PROD00326,Property fact clear including view do level probably.,2025-11-04 00:00:00
+ACT00079,ADMIN002,reject_product,product,PROD00334,,2025-07-15 00:00:00
+ACT00080,ADMIN001,update_product_status,product,PROD00191,,2025-10-07 00:00:00
+ACT00081,ADMIN003,verify_brand,brand,BRAND0054,,2025-05-05 00:00:00
+ACT00082,ADMIN002,resolve_ticket,ticket,TICKET00131,Least bag always.,2025-08-13 00:00:00
+ACT00083,ADMIN002,resolve_ticket,ticket,TICKET00059,Run board family stuff.,2024-12-31 00:00:00
+ACT00084,ADMIN001,approve_product,product,PROD00107,,2025-11-10 00:00:00
+ACT00085,ADMIN001,verify_brand,brand,BRAND0034,,2025-09-17 00:00:00
+ACT00086,ADMIN002,reject_product,product,PROD00255,Model across hot policy wall.,2025-08-15 00:00:00
+ACT00087,ADMIN003,resolve_ticket,ticket,TICKET00065,Both meeting film only.,2025-01-14 00:00:00
+ACT00088,ADMIN002,verify_brand,brand,BRAND0032,,2025-06-15 00:00:00
+ACT00089,ADMIN003,update_product_status,product,PROD00234,,2025-04-24 00:00:00
+ACT00090,ADMIN003,reject_product,product,PROD00237,,2025-04-04 00:00:00
+ACT00091,ADMIN001,suspend_brand,brand,BRAND0041,Agent eight attorney.,2024-06-05 00:00:00
+ACT00092,ADMIN002,resolve_ticket,ticket,TICKET00018,Price single article.,2024-06-08 00:00:00
+ACT00093,ADMIN003,resolve_ticket,ticket,TICKET00002,Recognize reach rule south.,2024-10-07 00:00:00
+ACT00094,ADMIN001,update_product_status,product,PROD00218,Common air nothing debate require increase argue.,2025-01-16 00:00:00
+ACT00095,ADMIN003,resolve_ticket,ticket,TICKET00017,Beat available learn provide ever.,2025-10-09 00:00:00
+ACT00096,ADMIN002,suspend_brand,brand,BRAND0093,,2024-09-27 00:00:00
+ACT00097,ADMIN003,approve_product,product,PROD00323,,2025-04-23 00:00:00
+ACT00098,ADMIN003,reject_product,product,PROD00457,Avoid song have act because.,2025-10-30 00:00:00
+ACT00099,ADMIN001,suspend_brand,brand,BRAND0079,,2024-08-02 00:00:00
+ACT00100,ADMIN002,approve_product,product,PROD00072,Message near although indeed side know special.,2024-10-28 00:00:00
+ACT00101,ADMIN001,approve_product,product,PROD00209,Environment enter direction visit.,2025-03-13 00:00:00
+ACT00102,ADMIN001,reject_product,product,PROD00429,,2025-03-25 00:00:00
+ACT00103,ADMIN001,suspend_brand,brand,BRAND0092,Idea note build rest use listen.,2024-07-24 00:00:00
+ACT00104,ADMIN003,verify_brand,brand,BRAND0098,Assume sing music boy.,2025-09-01 00:00:00
+ACT00105,ADMIN001,suspend_brand,brand,BRAND0071,Business bad remember company right suffer.,2025-08-12 00:00:00
+ACT00106,ADMIN003,approve_product,product,PROD00049,Debate have cover born hotel.,2025-09-30 00:00:00
+ACT00107,ADMIN002,approve_product,product,PROD00196,,2025-08-19 00:00:00
+ACT00108,ADMIN002,verify_brand,brand,BRAND0052,,2025-09-10 00:00:00
+ACT00109,ADMIN002,suspend_brand,brand,BRAND0082,,2025-06-22 00:00:00
+ACT00110,ADMIN001,resolve_ticket,ticket,TICKET00075,,2025-02-28 00:00:00
+ACT00111,ADMIN001,approve_product,product,PROD00054,White action effort recently material water.,2025-06-11 00:00:00
+ACT00112,ADMIN001,reject_product,product,PROD00010,Democratic support along customer to cost.,2025-03-16 00:00:00
+ACT00113,ADMIN003,reject_product,product,PROD00026,,2025-06-09 00:00:00
+ACT00114,ADMIN002,reject_product,product,PROD00261,Just focus all.,2024-12-04 00:00:00
+ACT00115,ADMIN001,reject_product,product,PROD00358,Fly right computer unit nature.,2025-02-20 00:00:00
+ACT00116,ADMIN003,reject_product,product,PROD00299,Rest alone particular purpose campaign she.,2025-09-13 00:00:00
+ACT00117,ADMIN002,approve_product,product,PROD00170,Spend imagine between address us.,2025-10-03 00:00:00
+ACT00118,ADMIN001,update_product_status,product,PROD00307,,2024-09-25 00:00:00
+ACT00119,ADMIN002,verify_brand,brand,BRAND0067,Offer site strategy opportunity better significant study significant.,2026-01-22 00:00:00
+ACT00120,ADMIN001,approve_product,product,PROD00074,Specific particularly measure.,2025-05-03 00:00:00
+ACT00121,ADMIN003,approve_product,product,PROD00298,Strong technology later religious.,2024-07-15 00:00:00
+ACT00122,ADMIN002,approve_product,product,PROD00125,Career red society continue minute tax fill baby.,2024-11-03 00:00:00
+ACT00123,ADMIN001,suspend_brand,brand,BRAND0053,,2024-07-04 00:00:00
+ACT00124,ADMIN002,reject_product,product,PROD00380,,2026-01-07 00:00:00
+ACT00125,ADMIN001,update_product_status,product,PROD00401,Tell either change green player fear former analysis.,2025-09-23 00:00:00
+ACT00126,ADMIN003,verify_brand,brand,BRAND0024,,2025-12-22 00:00:00
+ACT00127,ADMIN001,reject_product,product,PROD00043,,2025-11-02 00:00:00
+ACT00128,ADMIN003,resolve_ticket,ticket,TICKET00137,,2025-10-17 00:00:00
+ACT00129,ADMIN003,approve_product,product,PROD00417,,2025-03-18 00:00:00
+ACT00130,ADMIN002,resolve_ticket,ticket,TICKET00087,,2024-09-02 00:00:00
+ACT00131,ADMIN002,verify_brand,brand,BRAND0020,,2025-10-31 00:00:00
+ACT00132,ADMIN003,suspend_brand,brand,BRAND0072,,2025-03-18 00:00:00
+ACT00133,ADMIN001,update_product_status,product,PROD00007,Interview population look mouth report personal.,2024-06-24 00:00:00
+ACT00134,ADMIN001,reject_product,product,PROD00277,Style thus nature these also audience.,2025-10-20 00:00:00
+ACT00135,ADMIN001,update_product_status,product,PROD00359,Not role recognize life.,2025-07-23 00:00:00
+ACT00136,ADMIN002,suspend_brand,brand,BRAND0033,,2025-11-13 00:00:00
+ACT00137,ADMIN002,reject_product,product,PROD00438,,2025-05-08 00:00:00
+ACT00138,ADMIN003,verify_brand,brand,BRAND0024,Country save manage marriage might.,2025-10-24 00:00:00
+ACT00139,ADMIN001,update_product_status,product,PROD00186,,2024-07-11 00:00:00
+ACT00140,ADMIN003,approve_product,product,PROD00347,Lay medical activity able reality care.,2024-10-23 00:00:00
+ACT00141,ADMIN003,approve_product,product,PROD00269,,2024-07-21 00:00:00
+ACT00142,ADMIN002,approve_product,product,PROD00071,Me society plan.,2025-06-22 00:00:00
+ACT00143,ADMIN002,approve_product,product,PROD00481,,2024-06-25 00:00:00
+ACT00144,ADMIN002,resolve_ticket,ticket,TICKET00085,,2024-10-25 00:00:00
+ACT00145,ADMIN001,suspend_brand,brand,BRAND0051,,2024-12-25 00:00:00
+ACT00146,ADMIN001,update_product_status,product,PROD00345,Respond technology despite score.,2024-12-20 00:00:00
+ACT00147,ADMIN002,reject_product,product,PROD00205,Year lawyer condition no.,2025-01-09 00:00:00
+ACT00148,ADMIN003,suspend_brand,brand,BRAND0035,Social history stock hold clearly.,2024-12-23 00:00:00
+ACT00149,ADMIN001,approve_product,product,PROD00465,Land window character speech.,2024-07-29 00:00:00
+ACT00150,ADMIN001,update_product_status,product,PROD00047,Safe quickly high successful husband think.,2025-11-21 00:00:00
+ACT00151,ADMIN003,resolve_ticket,ticket,TICKET00143,,2025-12-19 00:00:00
+ACT00152,ADMIN003,suspend_brand,brand,BRAND0085,,2024-06-04 00:00:00
+ACT00153,ADMIN003,verify_brand,brand,BRAND0092,Trouble industry only simply within surface after.,2024-11-25 00:00:00
+ACT00154,ADMIN003,resolve_ticket,ticket,TICKET00130,Ability dream agree nothing probably.,2025-01-23 00:00:00
+ACT00155,ADMIN003,verify_brand,brand,BRAND0051,Hospital low serious again more direction sound.,2024-08-06 00:00:00
+ACT00156,ADMIN003,verify_brand,brand,BRAND0064,Staff other wife analysis hospital.,2024-12-02 00:00:00
+ACT00157,ADMIN003,resolve_ticket,ticket,TICKET00029,,2025-01-22 00:00:00
+ACT00158,ADMIN002,approve_product,product,PROD00119,Poor manage across respond government moment.,2025-08-29 00:00:00
+ACT00159,ADMIN002,suspend_brand,brand,BRAND0010,,2025-08-02 00:00:00
+ACT00160,ADMIN001,suspend_brand,brand,BRAND0021,Possible fund TV.,2024-06-26 00:00:00
+ACT00161,ADMIN001,resolve_ticket,ticket,TICKET00005,,2024-10-19 00:00:00
+ACT00162,ADMIN003,update_product_status,product,PROD00353,,2024-08-08 00:00:00
+ACT00163,ADMIN003,verify_brand,brand,BRAND0093,,2025-09-13 00:00:00
+ACT00164,ADMIN002,update_product_status,product,PROD00427,Apply design indicate perform guess reality opportunity measure.,2024-06-04 00:00:00
+ACT00165,ADMIN003,verify_brand,brand,BRAND0027,,2024-08-30 00:00:00
+ACT00166,ADMIN002,approve_product,product,PROD00456,Goal wish he.,2025-01-04 00:00:00
+ACT00167,ADMIN003,update_product_status,product,PROD00248,,2025-08-18 00:00:00
+ACT00168,ADMIN001,suspend_brand,brand,BRAND0050,Up find back off explain attack.,2025-10-29 00:00:00
+ACT00169,ADMIN001,verify_brand,brand,BRAND0050,,2026-01-20 00:00:00
+ACT00170,ADMIN003,approve_product,product,PROD00233,,2025-08-07 00:00:00
+ACT00171,ADMIN001,resolve_ticket,ticket,TICKET00131,,2025-07-23 00:00:00
+ACT00172,ADMIN002,update_product_status,product,PROD00158,End individual hotel head.,2024-09-15 00:00:00
+ACT00173,ADMIN002,suspend_brand,brand,BRAND0059,,2024-09-09 00:00:00
+ACT00174,ADMIN002,resolve_ticket,ticket,TICKET00126,,2024-10-07 00:00:00
+ACT00175,ADMIN003,update_product_status,product,PROD00201,Other seem once why.,2025-01-08 00:00:00
+ACT00176,ADMIN001,suspend_brand,brand,BRAND0049,,2025-11-21 00:00:00
+ACT00177,ADMIN003,update_product_status,product,PROD00023,,2024-08-29 00:00:00
+ACT00178,ADMIN003,update_product_status,product,PROD00055,,2024-11-13 00:00:00
+ACT00179,ADMIN002,suspend_brand,brand,BRAND0048,,2024-11-10 00:00:00
+ACT00180,ADMIN002,reject_product,product,PROD00070,,2025-08-29 00:00:00
+ACT00181,ADMIN003,resolve_ticket,ticket,TICKET00147,Human ok several measure score too.,2026-01-05 00:00:00
+ACT00182,ADMIN003,update_product_status,product,PROD00335,,2025-07-12 00:00:00
+ACT00183,ADMIN002,approve_product,product,PROD00102,Theory decision management enjoy add care watch last.,2025-04-29 00:00:00
+ACT00184,ADMIN001,reject_product,product,PROD00302,Nor western behavior budget long.,2025-12-03 00:00:00
+ACT00185,ADMIN001,resolve_ticket,ticket,TICKET00042,,2026-01-16 00:00:00
+ACT00186,ADMIN001,resolve_ticket,ticket,TICKET00095,Four age really property American could.,2026-01-01 00:00:00
+ACT00187,ADMIN001,resolve_ticket,ticket,TICKET00021,,2025-05-16 00:00:00
+ACT00188,ADMIN002,resolve_ticket,ticket,TICKET00016,,2024-11-03 00:00:00
+ACT00189,ADMIN002,suspend_brand,brand,BRAND0019,Fund that scene black stand great vote.,2025-10-21 00:00:00
+ACT00190,ADMIN002,suspend_brand,brand,BRAND0088,,2024-12-10 00:00:00
+ACT00191,ADMIN002,resolve_ticket,ticket,TICKET00148,Throw per appear Mrs.,2025-11-27 00:00:00
+ACT00192,ADMIN002,approve_product,product,PROD00190,,2024-08-14 00:00:00
+ACT00193,ADMIN002,update_product_status,product,PROD00190,,2025-08-26 00:00:00
+ACT00194,ADMIN002,approve_product,product,PROD00194,,2025-12-17 00:00:00
+ACT00195,ADMIN001,resolve_ticket,ticket,TICKET00079,Hour trade water arrive interesting fact investment.,2024-10-21 00:00:00
+ACT00196,ADMIN002,resolve_ticket,ticket,TICKET00119,Think line happen data some wall.,2025-05-26 00:00:00
+ACT00197,ADMIN003,approve_product,product,PROD00377,Eat product wonder management dark value.,2024-08-22 00:00:00
+ACT00198,ADMIN001,update_product_status,product,PROD00174,Ability bit arm nation several resource debate.,2025-04-12 00:00:00
+ACT00199,ADMIN002,resolve_ticket,ticket,TICKET00118,,2025-06-05 00:00:00
