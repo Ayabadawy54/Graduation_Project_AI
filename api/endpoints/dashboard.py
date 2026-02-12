@@ -41,6 +41,9 @@ async def get_dashboard_overview():
     last_week_revenue = last_7_days['total_price_egp'].sum()
     prev_week_revenue = prev_7_days['total_price_egp'].sum()
     
+    # Initialize trend_pct to avoid UnboundLocalError
+    trend_pct = 0
+    
     if prev_week_revenue > 0:
         trend_pct = ((last_week_revenue - prev_week_revenue) / prev_week_revenue) * 100
         if trend_pct > 5:
