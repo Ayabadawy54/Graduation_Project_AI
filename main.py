@@ -39,13 +39,36 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS middleware
+# CORS middleware - Allow Angular frontend and any localhost origin
+# Note: allow_credentials=True requires explicit origins (not "*")
+ALLOWED_ORIGINS = [
+    # Angular default dev server
+    "http://localhost:4200",
+    "http://127.0.0.1:4200",
+    # Common alternative ports
+    "http://localhost:3000",
+    "http://localhost:4000",
+    "http://localhost:8080",
+    "http://localhost:8100",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:4000",
+    "http://127.0.0.1:8080",
+    # Same origin (direct browser access)
+    "http://localhost",
+    "http://localhost:80",
+    "http://127.0.0.1",
+    # ngrok or any other tunnel (for team sharing)
+    "https://localhost",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify exact origins
+    allow_origins=ALLOWED_ORIGINS,
+    allow_origin_regex=r"https?://(localhost|127\.0\.0\.1)(:\d+)?",  # Any localhost port
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
 
 # Include routers
