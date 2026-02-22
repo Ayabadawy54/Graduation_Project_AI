@@ -94,9 +94,10 @@ async def get_conversion_funnel():
     }
 
 @router.get("/analytics/reports/weekly")
-async def get_weekly_report():
+async def get_weekly_report(week_offset: int = Query(0, ge=0, le=12, description="0=current week, 1=last week, 2=two weeks ago, etc.")):
     """
-    Generate automated weekly report
+    Generate automated weekly report.
+    Use week_offset to select which week: 0=current week, 1=previous week, etc.
     """
     orders_df = data_service.get_orders()
     users_df = data_service.get_users()
@@ -105,13 +106,14 @@ async def get_weekly_report():
     
     orders_df['order_date'] = pd.to_datetime(orders_df['order_date'])
     
-    # Last 7 days
+    # Calculate week window based on offset
     now = datetime.now()
-    week_start = now - timedelta(days=7)
-    this_week = orders_df[orders_df['order_date'] >= week_start]
+    week_end = now - timedelta(days=7 * week_offset)
+    week_start = week_end - timedelta(days=7)
+    this_week = orders_df[(orders_df['order_date'] >= week_start) & (orders_df['order_date'] < week_end)]
     
-    # Previous 7 days
-    prev_week_start = now - timedelta(days=14)
+    # Previous 7 days (for comparison)
+    prev_week_start = week_start - timedelta(days=7)
     prev_week = orders_df[(orders_df['order_date'] >= prev_week_start) & (orders_df['order_date'] < week_start)]
     
     # Calculate metrics
@@ -125,15 +127,18 @@ async def get_weekly_report():
     
     # New users
     users_df['created_at'] = pd.to_datetime(users_df['created_at'])
-    new_customers = len(users_df[(users_df['user_type'] == 'customer') & (users_df['created_at'] >= week_start)])
-    new_brands = len(brands_df[pd.to_datetime(brands_df['created_at']) >= week_start])
+    new_customers = len(users_df[(users_df['user_type'] == 'customer') & (users_df['created_at'] >= week_start) & (users_df['created_at'] < week_end)])
+    new_brands = len(brands_df[(pd.to_datetime(brands_df['created_at']) >= week_start) & (pd.to_datetime(brands_df['created_at']) < week_end)])
     
     # New products
     products_df['created_at'] = pd.to_datetime(products_df['created_at'])
-    new_products = len(products_df[products_df['created_at'] >= week_start])
+    new_products = len(products_df[(products_df['created_at'] >= week_start) & (products_df['created_at'] < week_end)])
+    
+    week_label = "Current week" if week_offset == 0 else f"{week_offset} week(s) ago"
     
     return {
-        'period': f"{week_start.strftime('%Y-%m-%d')} to {now.strftime('%Y-%m-%d')}",
+        'week_offset': week_offset,
+        'period': f"{week_start.strftime('%Y-%m-%d')} to {week_end.strftime('%Y-%m-%d')} ({week_label})",
         'metrics': {
             'total_orders': this_week_orders,
             'orders_change_pct': round(orders_change, 1),
@@ -144,8 +149,8 @@ async def get_weekly_report():
             'new_products': new_products
         },
         'highlights': [
-            f"Orders {abs(orders_change):.1f}% {'up' if orders_change > 0 else 'down'} vs last week",
-            f"Revenue {abs(revenue_change):.1f}% {'up' if revenue_change > 0 else 'down'} vs last week",
+            f"Orders {abs(orders_change):.1f}% {'up' if orders_change > 0 else 'down'} vs previous week",
+            f"Revenue {abs(revenue_change):.1f}% {'up' if revenue_change > 0 else 'down'} vs previous week",
             f"{new_customers} new customers joined",
             f"{new_brands} new brands registered"
         ]

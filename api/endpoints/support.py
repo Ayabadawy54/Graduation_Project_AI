@@ -26,19 +26,7 @@ async def get_support_tickets(
     
     return tickets_df.head(limit).to_dict(orient='records')
 
-@router.get("/support-tickets/{ticket_id}")
-async def get_ticket_detail(ticket_id: str):
-    """
-    Get ticket details
-    """
-    tickets_df = data_service.get_support_tickets()
-    ticket = tickets_df[tickets_df['ticket_id'] == ticket_id]
-    
-    if len(ticket) == 0:
-        raise HTTPException(status_code=404, detail="Ticket not found")
-    
-    return ticket.iloc[0].to_dict()
-
+# ⚠️ IMPORTANT: analytics route MUST come before /{ticket_id} to avoid routing conflict
 @router.get("/support-tickets/analytics/summary")
 async def get_ticket_summary():
     """
@@ -57,3 +45,16 @@ async def get_ticket_summary():
         'by_priority': by_priority,
         'by_category': by_category
     }
+
+@router.get("/support-tickets/{ticket_id}")
+async def get_ticket_detail(ticket_id: str):
+    """
+    Get ticket details
+    """
+    tickets_df = data_service.get_support_tickets()
+    ticket = tickets_df[tickets_df['ticket_id'] == ticket_id]
+    
+    if len(ticket) == 0:
+        raise HTTPException(status_code=404, detail="Ticket not found")
+    
+    return ticket.iloc[0].to_dict()
