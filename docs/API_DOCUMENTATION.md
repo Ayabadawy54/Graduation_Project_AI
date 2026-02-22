@@ -1,300 +1,256 @@
-# 🚀 TalentTree Admin Dashboard API Documentation
-
-## Overview
-
-The TalentTree Admin Dashboard API is a comprehensive FastAPI application with AI-powered analytics for managing an Egyptian handmade marketplace.
-
-## 🎯 Key Features
-
-- **AI-Powered Risk Scoring**: Brand risk assessment with automated recommendations
-- **Product Quality Analysis**: Automated product approval suggestions
-- **Sales Forecasting**: Predictive analytics for order volumes
-- **Sentiment Analysis**: Review sentiment detection
-- **Egyptian Context**: Governorate-based analytics and Egyptian business patterns
-
-## 📡 API Endpoints
-
-### Dashboard Endpoints
-
-#### GET /api/dashboard/overview
-Get complete dashboard overview with metrics and AI insights.
-
-**Response:**
-```json
-{
-  "total_owners": 100,
-  "active_owners": 95,
-  "total_customers": 500,
-  "total_orders": 2000,
-  "total_revenue_egp": 1234567.89,
-  "sales_trend": "↑ 15.3%",
-  "high_risk_brands": 5,
-  "pending_approvals": 25,
-  "top_recommendations": [
-    "Platform performing normally - no urgent actions"
-  ],
-  "alerts": [
-    {
-      "type": "info",
-      "message": "No anomalies detected",
-      "severity": "info"
-    }
-  ]
-}
-```
-
-#### GET /api/dashboard/category-performance
-Get sales performance by product category.
-
-**Response:**
-```json
-[
-  {
-    "category": "Fashion & Accessories",
-    "total_sales_egp": 450000.00,
-    "total_orders": 800,
-    "avg_order_value_egp": 562.50,
-    "growth_trend": "→ 5%",
-    "active_brands": 33
-  }
-]
-```
-
-### Brands Endpoints
-
-#### GET /api/brands
-Get list of brands with optional filters.
-
-**Query Parameters:**
-- `category` (optional): Filter by category
-- `risk_level` (optional): Filter by risk level (low/medium/high)
-- `verified` (optional): Filter by verification status
-- `limit` (default: 50): Maximum results to return
-
-**Example:**
-```
-GET /api/brands?category=Fashion%20%26%20Accessories&limit=10
-```
-
-#### GET /api/brands/{brand_id}
-Get detailed information about a specific brand.
-
-**Response:**
-```json
-{
-  "brand_id": "BRAND0001",
-  "owner_user_id": "USER00002",
-  "business_name": "Style Studio",
-  "category": "Fashion & Accessories",
-  "verified": true,
-  "total_sales_egp": 17418.41,
-  "total_orders": 206,
-  "avg_rating": 4.3,
-  "rating_count": 22,
-  "risk_score": 0.25,
-  "risk_level": "low",
-  "ai_insights": [
-    "Brand has 206 total orders",
-    "Average rating: 4.3/5.0",
-    "Total revenue: 17418.41 EGP",
-    "✅ Verified brand - eligible for premium features",
-    "Brand performing well"
-  ]
-}
-```
-
-#### GET /api/brands/analytics/risk-analysis
-Get all high and medium risk brands sorted by risk score.
-
-### Products Endpoints
-
-#### GET /api/products
-Get list of products with filters.
-
-**Query Parameters:**
-- `status` (optional): Filter by status (pending/approved/rejected)
-- `category` (optional): Filter by category
-- `limit` (default: 50): Maximum results to return
-
-#### GET /api/products/{product_id}
-Get detailed product information with AI quality assessment.
-
-**Response:**
-```json
-{
-  "product_id": "PROD00001",
-  "brand_id": "BRAND0001",
-  "name": "Leather Tote Bag",
-  "category": "Fashion & Accessories",
-  "price_egp": 450.00,
-  "stock_quantity": 25,
-  "status": "approved",
-  "quality_score": 0.85,
-  "approval_recommendation": "auto_approve",
-  "suggestions": [
-    "Product meets quality standards"
-  ]
-}
-```
-
-#### GET /api/products/pending/queue
-Get products awaiting approval, sorted by quality score.
-
-### Analytics Endpoints
-
-#### GET /api/analytics/forecast/orders
-Forecast order volume for next N days.
-
-**Query Parameters:**
-- `days` (default: 7, max: 30): Number of days to forecast
-- `category` (optional): Filter by category
-
-**Response:**
-```json
-[
-  {
-    "date": "2026-02-01",
-    "predicted_orders": 12,
-    "confidence_low": 10,
-    "confidence_high": 14,
-    "factors": [
-      "Weekend pattern",
-      "Based on 180 days of history"
-    ]
-  }
-]
-```
-
-#### GET /api/analytics/sales/trends
-Get sales trends over time.
-
-**Query Parameters:**
-- `period` (daily/weekly/monthly): Aggregation period
-
-#### GET /api/analytics/reviews/sentiment
-Analyze sentiment distribution of all reviews.
-
-#### GET /api/analytics/governorates/performance
-Get sales performance by Egyptian governorate.
-
-## 🚀 Running the API
-
-### Start the Server
-
-```bash
-cd c:\Users\MAI\Talentree-Admin-Dashboard
-python main.py
-```
-
-The API will start on `http://localhost:8000`
-
-### Test the API
-
-```bash
-python scripts/test_api.py
-```
-
-### Interactive Documentation
-
-Once the server is running, visit:
-
-- **Swagger UI**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-
-## 📊 Data Loading
-
-The API automatically loads all 12 CSV files on startup:
-
-- ✅ users.csv (600 records)
-- ✅ brands.csv (100 records)
-- ✅ products.csv (500 records)
-- ✅ orders.csv (2,000 records)
-- ✅ payments.csv (2,000 records)
-- ✅ reviews.csv (400 records)
-- ✅ static_vendors.csv (10 records)
-- ✅ raw_material_marketplace.csv (50 records)
-- ✅ material_requests.csv (200 records)
-- ✅ support_tickets.csv (150 records)
-- ✅ admin_actions.csv (200 records)
-- ✅ analytics_snapshots.csv (180 records)
-
-## 🤖 AI Features
-
-### 1. Brand Risk Scoring
-- Calculates risk based on return rate, fulfillment rate, ratings
-- Provides actionable recommendations
-- Classifies as low/medium/high risk
-
-### 2. Product Quality Assessment
-- Evaluates listing quality
-- Recommends auto-approve/manual-review/auto-reject
-- Provides improvement suggestions
-
-### 3. Sales Forecasting
-- Predicts order volume
-- Accounts for day-of-week patterns
-- Provides confidence intervals
-
-### 4. Sentiment Analysis
-- Analyzes review sentiment (positive/neutral/negative)
-- Calculates sentiment scores
-- Aggregates sentiment distribution
-
-### 5. Anomaly Detection
-- Detects unusual order spikes
-- Identifies high cancellation rates
-- Alerts admins to issues
-
-## 🛠️ Technology Stack
-
-- **Framework**: FastAPI 0.109.0
-- **Data Processing**: Pandas 2.1.4
-- **AI/ML**: NumPy, custom algorithms
-- **Server**: Uvicorn 0.27.0
-- **Validation**: Pydantic 2.5.3
-
-## 📝 Environment
-
-- **Platform**: Windows
-- **Python**: 3.12+
-- **Port**: 8000
-- **CORS**: Enabled for all origins (configure for production)
-
-## 🔧 API Structure
-
-```
-api/
-├── __init__.py
-├── endpoints/
-│   ├── __init__.py
-│   ├── dashboard.py      # Dashboard metrics
-│   ├── brands.py          # Brand management
-│   ├── products.py        # Product management
-│   └── analytics.py       # Analytics & forecasting
-├── services/
-│   ├── __init__.py
-│   ├── data_service.py    # CSV data access
-│   └── ai_service.py      # AI algorithms
-├── models/
-│   ├── __init__.py
-│   └── schemas.py         # Pydantic models
-└── utils/
-    ├── __init__.py
-    └── egyptian_context.py # Egyptian utilities
-```
-
-## 📈 Next Steps
-
-After the API is running, you can:
-
-1. Build a frontend dashboard (React/Vue/Streamlit)
-2. Integrate advanced ML models (saved .pkl files)
-3. Add authentication and authorization
-4. Deploy to cloud (AWS/Azure/Heroku)
-5. Add WebSocket support for real-time updates
+# 🚀 TalentTree Admin Dashboard API — Complete Documentation
+> **Version:** 2.0.0 | **Total Endpoints:** 52 | **Last Updated:** 2026-02-22  
+> **Base URL (Docker):** `http://localhost:8000`  
+> **Interactive Docs:** `http://localhost:8000/docs`
 
 ---
 
-**Status**: ✅ API READY FOR USE
-**Version**: 1.0.0
-**Last Updated**: January 31, 2026
+## 📦 Modules Overview
+
+| # | Module | Tag | Endpoints | Base Path |
+|---|---|---|---|---|
+| 1 | Dashboard | Dashboard | 2 | `/api/admin/dashboard` |
+| 2 | Brands | Brands | 3 | `/api/admin/brands` |
+| 3 | Products | Products | 6 | `/api/admin/products` |
+| 4 | Orders | Orders | 6 | `/api/admin/orders` |
+| 5 | Analytics | Analytics | 5 | `/api/admin/analytics` |
+| 6 | Customers & Users | Customers & Users | 7 | `/api/admin/customers`, `/api/admin/users` |
+| 7 | Vendors & Materials | Vendors & Materials | 4 | `/api/admin/vendors`, `/api/admin/raw-materials` |
+| 8 | Support | Support | 3 | `/api/admin/support-tickets` |
+| 9 | **Payments** 🆕 | Payments | 4 | `/api/admin/payments` |
+| 10 | **Reports** 🆕 | Reports | 3 | `/api/admin/reports` |
+| 11 | **Notifications** 🆕 | Notifications | 3 | `/api/admin/notifications` |
+| 12 | **Admin Actions Log** 🆕 | Admin Actions Log | 2 | `/api/admin/admin-actions` |
+| 13 | **Inventory** 🆕 | Inventory | 3 | `/api/admin/inventory` |
+| — | Core | — | 2 | `/` `/health` |
+| | **TOTAL** | | **52** | |
+
+---
+
+## 📡 All Endpoints
+
+### 1. Dashboard
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/dashboard/overview` | Platform metrics + AI alerts + recommendations |
+| GET | `/api/admin/dashboard/category-performance` | Sales by category |
+
+### 2. Brands
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/brands` | List brands (filters: category, risk_level, verified) |
+| GET | `/api/admin/brands/{brand_id}` | Brand detail + AI risk insights |
+| GET | `/api/admin/brands/analytics/risk-analysis` | All high/medium risk brands |
+
+### 3. Products
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/products` | List products (filters: status, category, brand_id) |
+| GET | `/api/admin/products/pending-approval` | Queue with AI quality scores |
+| GET | `/api/admin/products/analytics/trending` | Top trending by views+clicks score |
+| GET | `/api/admin/products/analytics/pricing-analysis` | Price ranges by category |
+| GET | `/api/admin/products/{product_id}` | Product detail + quality assessment |
+| POST | `/api/admin/products/{product_id}/approve` | Approve or reject product |
+
+### 4. Orders
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/orders` | List orders (filters: status, date range) |
+| GET | `/api/admin/orders/analytics/forecast` | AI order volume forecast (next N days) |
+| GET | `/api/admin/orders/analytics/late-fulfillment` | Orders at risk of late delivery |
+| GET | `/api/admin/orders/analytics/by-governorate` | Order heatmap by Egyptian governorate |
+| GET | `/api/admin/orders/analytics/anomalies` | Spike + cancellation rate detection |
+| GET | `/api/admin/orders/{order_id}` | Single order detail |
+
+### 5. Analytics
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/analytics/sales-trends?period=30` | Daily sales over N days |
+| GET | `/api/admin/analytics/revenue-breakdown` | Revenue by category & governorate |
+| GET | `/api/admin/analytics/conversion-funnel` | Views → Clicks → Favorites → Purchases |
+| GET | `/api/admin/analytics/reports/weekly?week_offset=0` | Weekly report (0=current, 1=last week…) |
+| GET | `/api/admin/analytics/category-deep-dive/{category}` | Deep category analysis |
+
+### 6. Customers & Users
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/users` | All platform users (owners + customers) |
+| GET | `/api/admin/users/analytics/overview` | User growth, breakdown by type/governorate |
+| PUT | `/api/admin/users/{user_id}/status?action=suspend` | Suspend or activate user |
+| DELETE | `/api/admin/users/{user_id}` | Soft-delete user |
+| GET | `/api/admin/customers` | Customers list with AI segments |
+| GET | `/api/admin/customers/analytics/segments` | VIP / Loyal / Occasional / At Risk counts |
+| GET | `/api/admin/customers/{customer_id}` | Customer detail + spend + segment |
+
+### 7. Vendors & Materials
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/vendors` | All raw material vendors |
+| GET | `/api/admin/vendors/{vendor_id}` | Vendor detail + performance |
+| GET | `/api/admin/raw-materials` | Material catalog |
+| GET | `/api/admin/raw-materials/demand-forecast` | Top 20 most demanded materials |
+
+### 8. Support
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/support-tickets` | List tickets (filters: status, priority) |
+| GET | `/api/admin/support-tickets/analytics/summary` | Counts by status/priority/category |
+| GET | `/api/admin/support-tickets/{ticket_id}` | Single ticket detail |
+
+### 9. Payments 🆕
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/payments` | List payments (filters: status, method, days) |
+| GET | `/api/admin/payments/analytics/summary` | Revenue by method, success rate |
+| GET | `/api/admin/payments/analytics/trends` | Daily payment volume over time |
+| GET | `/api/admin/payments/{payment_id}` | Single payment + linked order |
+
+### 10. Reports 🆕
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/reports/monthly?year=2026&month=2` | Full monthly report |
+| GET | `/api/admin/reports/brands/{brand_id}` | Per-brand performance report |
+| GET | `/api/admin/reports/export/summary` | Platform summary for PDF/Excel export |
+
+### 11. Notifications 🆕
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/notifications` | All live notifications from platform state |
+| GET | `/api/admin/notifications/count` | Unread count for frontend badge |
+| POST | `/api/admin/notifications/{id}/read` | Mark notification as read |
+
+> 💡 Notifications are generated **dynamically** (no CSV) from: pending approvals, high-risk brands, order anomalies, and critical low stock.
+
+### 12. Admin Actions Log 🆕
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/admin-actions` | Action log (filters: action_type, admin_user_id, target_type) |
+| GET | `/api/admin/admin-actions/analytics` | Actions summary by type, admin, month |
+
+### 13. Inventory 🆕
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/admin/inventory/overview` | Stock health (out of stock, low, healthy) |
+| GET | `/api/admin/inventory/low-stock?threshold=10` | Products below stock threshold |
+| GET | `/api/admin/inventory/analytics` | Stock value, top stocked, urgent restock list |
+
+---
+
+## 🤖 AI Features
+
+| Feature | Where Used | Logic |
+|---|---|---|
+| Brand Risk Score | brands, dashboard | `cancellation × 0.4 + (1−fulfillment) × 0.3 + (5−rating)/5 × 0.2 + (0.1 if unverified)` |
+| Product Quality Score | products/pending-approval | Price range + stock + description length + brand reputation |
+| Sales Forecasting | orders/forecast | Moving average × day-of-week multiplier (Fri/Sat ×1.2) |
+| Customer Segmentation | customers | VIP / Loyal / Occasional / At Risk / New Customer |
+| Anomaly Detection | orders/anomalies, notifications | Statistical z-score on daily order volumes |
+| Restock Urgency | inventory/analytics | `sales_count / stock_quantity` ratio |
+
+---
+
+## 🗄️ Data Sources (CSV Files)
+
+| File | Records | Used By |
+|---|---|---|
+| `users.csv` | 600 | customers, users |
+| `brands.csv` | 100 | brands, dashboard |
+| `products.csv` | 500 | products, inventory |
+| `orders.csv` | 2,000 | orders, analytics, dashboard |
+| `payments.csv` | 2,000 | payments |
+| `reviews.csv` | 400 | brands (sentiment) |
+| `static_vendors.csv` | 10 | vendors |
+| `raw_material_marketplace.csv` | 50 | vendors |
+| `material_requests.csv` | 200 | vendors |
+| `support_tickets.csv` | 150 | support |
+| `admin_actions.csv` | 200 | admin-actions |
+| `analytics_snapshots.csv` | 180 | analytics |
+
+---
+
+## 📁 Project Structure
+
+```
+api/
+├── endpoints/
+│   ├── dashboard.py       ✅ Dashboard metrics
+│   ├── brands.py          ✅ Brand management & risk
+│   ├── products.py        ✅ Product mgmt & quality
+│   ├── orders.py          ✅ Order management & forecasting
+│   ├── analytics.py       ✅ Sales analytics & reports
+│   ├── customers.py       ✅ Customer + user management
+│   ├── vendors.py         ✅ Vendor & materials
+│   ├── support.py         ✅ Support tickets
+│   ├── payments.py        🆕 Payment analytics
+│   ├── reports.py         🆕 Report generation
+│   ├── notifications.py   🆕 Live notification system
+│   ├── admin_actions.py   🆕 Admin audit log
+│   └── inventory.py       🆕 Inventory management
+├── services/
+│   ├── data_service.py    ✅ CSV data access layer
+│   └── ai_service.py      ✅ All AI algorithms
+└── models/
+    └── schemas.py         ✅ Pydantic validation models
+```
+
+---
+
+## 🚀 Running with Docker
+
+```powershell
+# Start all containers
+docker-compose up -d
+
+# Check health
+docker ps
+
+# View logs
+docker logs talentree-api --tail 50
+```
+
+**Services:**
+- API: `http://localhost:8000`
+- Swagger: `http://localhost:8000/docs`
+- Jupyter: `http://localhost:8888`
+
+---
+
+## 🔍 Example Requests
+
+```bash
+# Dashboard
+curl http://localhost:8000/api/admin/dashboard/overview
+
+# Payments summary
+curl http://localhost:8000/api/admin/payments/analytics/summary
+
+# Notifications (live)
+curl http://localhost:8000/api/admin/notifications
+
+# Monthly report for February 2026
+curl "http://localhost:8000/api/admin/reports/monthly?year=2026&month=2"
+
+# Inventory critical stock
+curl http://localhost:8000/api/admin/inventory/low-stock?threshold=5
+
+# Weekly report — last week
+curl "http://localhost:8000/api/admin/analytics/reports/weekly?week_offset=1"
+
+# Pending product approvals
+curl http://localhost:8000/api/admin/products/pending-approval
+
+# Admin audit log
+curl http://localhost:8000/api/admin/admin-actions?action_type=verify_brand
+```
+
+---
+
+## ⚠️ Developer Notes
+
+> **FastAPI Route Ordering Rule:** Always register static/named routes **before** dynamic `/{id}` routes.  
+> Example: `/products/pending-approval` must come before `/products/{product_id}`.  
+> All endpoints in this project follow this rule correctly.
+
+---
+
+**Status:** ✅ Production-Ready | **Version:** 2.0.0 | **Updated:** 2026-02-22

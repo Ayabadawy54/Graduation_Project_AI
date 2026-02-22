@@ -1,256 +1,97 @@
-# 🎉 TalentTree Admin Dashboard API - ENHANCED VERSION COMPLETE
+# 🎉 TalentTree Admin Dashboard API — v2.0 Complete
 
-## 📊 What's New in This Update
+## ✅ What's New in v2.0 (Added 2026-02-22)
 
-### ✅ **NEW Endpoints Added**
+### 5 New Endpoint Modules (18 New Endpoints)
 
-#### 1. **Orders Management** (`/api/admin/orders`)
-- `GET /orders` - Filter orders by status, date range
-- `GET /orders/{order_id}` - Detailed order information
-- `GET /orders/analytics/forecast` - AI-powered order forecasting
-- `GET /orders/analytics/late-fulfillment` - Late delivery risk detection
-- `GET /orders/analytics/by-governorate` - Orders by Egyptian governorate
-- `GET /orders/analytics/anomalies` - Detect unusual patterns
+#### 1. Payments Analytics (`/api/admin/payments`) 🆕
+- `GET /payments` — List with filters (status, method, date range)
+- `GET /payments/analytics/summary` — Revenue by method, success rate
+- `GET /payments/analytics/trends` — Daily payment volume over time
+- `GET /payments/{payment_id}` — Single payment + linked order info
 
-#### 2. **Customer Analytics** (`/api/admin/customers`)
-- `GET /customers` - List customers with segmentation
-- `GET /customers/{customer_id}` - Detailed customer profile
-- `GET /customers/analytics/segments` - Segment distribution (VIP, Loyal, At Risk)
+#### 2. Reports (`/api/admin/reports`) 🆕
+- `GET /reports/monthly?year=2026&month=2` — Full monthly report
+- `GET /reports/brands/{brand_id}` — Per-brand performance report
+- `GET /reports/export/summary` — Structured export for PDF/Excel frontend generation
 
-#### 3. **Vendors & Materials** (`/api/admin/vendors`)
-- `GET /vendors` - List all vendors
-- `GET /vendors/{vendor_id}` - Vendor performance metrics
-- `GET /raw-materials` - Raw materials catalog
-- `GET /raw-materials/demand-forecast` - Material demand forecasting
+#### 3. Live Notifications (`/api/admin/notifications`) 🆕
+- `GET /notifications` — All notifications from platform state
+- `GET /notifications/count` — Unread badge count for frontend navbar
+- `POST /notifications/{id}/read` — Mark as read
 
-#### 4. **Support Tickets** (`/api/admin/support`)
-- `GET /support-tickets` - Filter by status/priority
-- `GET /support-tickets/{ticket_id}` - Ticket details
-- `GET /support-tickets/analytics/summary` - Ticket analytics
+> Notifications are **dynamically generated** from: pending approvals, high-risk brands, order anomalies, and critical low-stock items. No CSV needed.
 
-#### 5. **Enhanced Analytics** (`/api/admin/analytics`)
-- `GET /analytics/sales-trends?period=30` - Sales trends over custom period
-- `GET /analytics/revenue-breakdown` - Revenue by category & governorate
-- `GET /analytics/conversion-funnel` - View → Click → Purchase funnel
-- `GET /analytics/reports/weekly` - Automated weekly report
-- `GET /analytics/category-deep-dive/{category}` - Comprehensive category analysis
+#### 4. Admin Actions Log (`/api/admin/admin-actions`) 🆕
+- `GET /admin-actions` — Full audit log (filters: action_type, admin, target)
+- `GET /admin-actions/analytics` — Actions summary by type, admin, month
 
-#### 6. **Enhanced Products** (`/api/admin/products`)
-- `GET /products?brand_id=XXX` - Filter products by brand
-- `GET /products/pending-approval` - Products awaiting approval with AI scores
-- `POST /products/{product_id}/approve` - Approve/reject products
-- `GET /products/analytics/trending` - Trending products
-- `GET /products/analytics/pricing-analysis` - Price analysis by category
+#### 5. Inventory Management (`/api/admin/inventory`) 🆕
+- `GET /inventory/overview` — Stock health overview (out of stock, low, healthy %)
+- `GET /inventory/low-stock?threshold=10` — Products needing restock
+- `GET /inventory/analytics` — Stock value, restock urgency scores
 
-## 🏗️ Architecture Improvements
-
-### Modern FastAPI Lifespan Pattern
-- ✅ Replaced deprecated `@app.on_event("startup")` with `lifespan` context manager
-- ✅ Proper startup/shutdown handling
-- ✅ No more deprecation warnings
-
-### Enhanced Routing
-- ✅ All endpoints now use `/api/admin/*` prefix
-- ✅ 8 separate endpoint modules for better organization
-- ✅ Comprehensive error handling with HTTPException
-
-## 📈 Complete API Structure
-
-```python
-api/
-├── endpoints/
-│   ├── dashboard.py     ✅ Dashboard overview & category performance
-│   ├── brands.py        ✅ Brand management & risk analysis
-│   ├── products.py      ✅ Product mgmt, quality assessment, trending
-│   ├── orders.py        🆕 Order management & forecasting
-│   ├── analytics.py     ✅ Comprehensive analytics & reports
-│   ├── customers.py     🆕 Customer analytics & segmentation
-│   ├── vendors.py       🆕 Vendor & materials management
-│   └── support.py       🆕 Support ticket management
-├── services/
-│   ├── data_service.py  ✅ CSV data access layer
-│   └── ai_service.py    ✅ AI algorithms  
-├── models/
-│   └── schemas.py       ✅ Pydantic models
-└── utils/
-    └── egyptian_context.py ✅ Egyptian utilities
-```
-
-## 🚀 Total Endpoint Count
-
-**50+ API Endpoints** across 8 modules:
-
-- **Dashboard**: 2 endpoints
-- **Brands**: 3 endpoints
-- **Products**: 6 endpoints  
-- **Orders**: 6 endpoints
-- **Analytics**: 6 endpoints
-- **Customers**: 3 endpoints
-- **Vendors**: 4 endpoints
-- **Support**: 3 endpoints
-- **Core**: 2 endpoints (root, health)
-
-## 🎯 Quick Start
-
-### Start the Enhanced API
-
-```bash
-cd c:\Users\MAI\Talentree-Admin-Dashboard
-python main.py
-```
-
-You should see:
-```
-============================================================
-[STARTUP] TALENTREE ADMIN API STARTING
-============================================================
-[INFO] Loading data...
-[OK] Loaded users.csv: 600 records
-[OK] Loaded brands.csv: 100 records
-... (all 12 CSV files)
-[OK] Data loaded successfully
-
-[INFO] API Documentation:
-   - Swagger UI: http://localhost:8000/docs
-   - ReDoc: http://localhost:8000/redoc
-
-============================================================
-```
-
-### Test New Endpoints
-
-```bash
-# Customer segmentation
-curl http://localhost:8000/api/admin/customers/analytics/segments
-
-# Weekly report
-curl http://localhost:8000/api/admin/analytics/reports/weekly
-
-# Late fulfillment risk
-curl http://localhost:8000/api/admin/orders/analytics/late-fulfillment
-
-# Trending products
-curl http://localhost:8000/api/admin/products/analytics/trending?limit=5
-
-# Support ticket summary  
-curl http://localhost:8000/api/admin/support-tickets/analytics/summary
-
-# Category deep dive
-curl http://localhost:8000/api/admin/analytics/category-deep-dive/Fashion%20%26%20Accessories
-```
-
-## 📚 Interactive Documentation
-
-Visit http://localhost:8000/docs to explore ALL endpoints with:
-- ✅ Request/response examples
-- ✅ Try it out functionality
-- ✅ Parameter documentation
-- ✅ Schema definitions
-
-## 💡 Example Use Cases
-
-### 1. Monitor Late Orders
-```python
-GET /api/admin/orders/analytics/late-fulfillment
-→ Get orders stuck in processing > 5 days
-→ AI recommends immediate action for > 7 days
-```
-
-### 2. Identify VIP Customers
-```python
-GET /api/admin/customers/analytics/segments
-→ See distribution: VIP, Loyal, Occasional, At Risk
-→ Target marketing campaigns
-```
-
-### 3. Forecast Material Demand
-```python
-GET /api/admin/raw-materials/demand-forecast
-→ See top 20 most-demanded materials
-→ Plan inventory
-```
-
-### 4. Weekly Business Report
-```python
-GET /api/admin/analytics/reports/weekly
-→ Automated report with:
-  - Orders change % vs last week
-  - Revenue change % vs last week
-  - New customers, brands, products
-```
-
-### 5. Product Approval Workflow
-```python
-# 1. Get pending products with AI recommendations
-GET /api/admin/products/pending-approval
-→ Sorted by quality score (highest first)
-
-# 2. Approve high-quality products
-POST /api/admin/products/{product_id}/approve
-Body: {"action": "approve", "reason": "Meets quality standards"}
-```
-
-## 🎨 API Design Highlights
-
-- ✅ **RESTful**: Consistent URL patterns
-- ✅ **Filtered**: Most endpoints support filters (status, category, date range)
-- ✅ **Paginated**: Limit parameters to control response size
-- ✅ **AI-Enhanced**: Risk scores, quality assessments, forecasts
-- ✅ **Egyptian Context**: Governorate analytics, holiday awareness
-- ✅ **Type-Safe**: Pydantic models for validation
-- ✅ **Well-Documented**: Docstrings on all endpoints
-
-## 🔐 Security Considerations
-
-For production deployment:
-1. Replace `allow_origins=["*"]` with specific domains
-2. Add authentication middleware (JWT/OAuth2)
-3. Implement rate limiting
-4. Add API key validation
-5. Enable HTTPS only
-
-## 📊 Data Coverage
-
-All endpoints utilize:
-- ✅ 600 users (owners/customers)
-- ✅ 100 brands
-- ✅ 500 products
-- ✅ 2,000 orders
-- ✅ 400 reviews
-- ✅ 10 vendors
-- ✅ 50 raw materials
-- ✅ 200 material requests
-- ✅ 150 support tickets
-
-## 🎯 Next Steps
-
-Now that you have a comprehensive API, you can:
-
-1. **Build Frontend Dashboard**
-   - React/Vue/Streamlit  interface
-   - Connect to these endpoints
-   - Visualize Egyptian market data
-
-2. **Advanced ML Integration**
-   - Train sophisticated models
-   - Replace rule-based AI with ML models
-   - Save as .pkl files and integrate
-
-3. **Deploy to Production**
-   - AWS/Azure/Heroku deployment
-   - PostgreSQL database instead of CSV
-   - Redis caching
-   - Load balancing
-
-4. **Add Real-time Features**
-   - WebSocket for live order updates
-   - Real-time dashboard metrics
-   - Notification system
+#### 6. User Management (added to Customers module) 🆕
+- `GET /users` — All users (owners + customers)
+- `GET /users/analytics/overview` — Growth, by type, by governorate
+- `PUT /users/{user_id}/status?action=suspend` — Suspend or activate
+- `DELETE /users/{user_id}` — Soft-delete user
 
 ---
 
-**Status**: ✅ **ENHANCED API COMPLETE - 50+ ENDPOINTS READY**  
-**Version**: 2.0.0  
-**Last Updated**: January 31, 2026, 10:10 PM
+## 🐛 Bug Fixes in v2.0
 
-**🚀 Your TalentTree Admin Dashboard API is now production-ready!** 🚀
+| Bug | Affected Endpoint | Fix |
+|---|---|---|
+| Route ordering conflict — static path caught by `/{id}` | `/products/pending-approval` | Moved static before dynamic |
+| Route ordering conflict | `/products/analytics/trending` | Moved static before dynamic |
+| Route ordering conflict | `/support-tickets/analytics/summary` | Moved static before dynamic |
+| Route ordering conflict | `/customers/analytics/segments` | Moved static before dynamic |
+
+> **Rule:** In FastAPI, always register static paths **before** `/{id}` dynamic paths.
+
+---
+
+## 🔧 Feature Additions in v2.0
+
+| Feature | Endpoint | Change |
+|---|---|---|
+| Week selection | `/analytics/reports/weekly` | Added `?week_offset=N` (0–12 weeks back) |
+| Restock urgency | `/inventory/analytics` | Score = `sales_count / stock_quantity` |
+| Payment + order link | `/payments/{id}` | Returns linked order status |
+
+---
+
+## 📈 Endpoint Count Progression
+
+| Version | Endpoints | Date |
+|---|---|---|
+| v1.0 | 34 | Jan 2026 |
+| v2.0 | **52** | Feb 2026 |
+
+---
+
+## 🏗️ Updated Architecture
+
+```
+api/endpoints/
+├── dashboard.py       ✅ 2 endpoints
+├── brands.py          ✅ 3 endpoints
+├── products.py        ✅ 6 endpoints  (bug fixed)
+├── orders.py          ✅ 6 endpoints
+├── analytics.py       ✅ 5 endpoints  (week_offset added)
+├── customers.py       ✅ 7 endpoints  (4 user mgmt added, bug fixed)
+├── vendors.py         ✅ 4 endpoints
+├── support.py         ✅ 3 endpoints  (bug fixed)
+├── payments.py        🆕 4 endpoints
+├── reports.py         🆕 3 endpoints
+├── notifications.py   🆕 3 endpoints
+├── admin_actions.py   🆕 2 endpoints
+└── inventory.py       🆕 3 endpoints
+```
+
+---
+
+**Status:** ✅ v2.0 Complete — 52 Endpoints  
+**Swagger:** `http://localhost:8000/docs` — 13 tag sections  
+**Updated:** 2026-02-22
