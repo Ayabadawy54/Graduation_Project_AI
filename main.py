@@ -7,7 +7,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 # Import routers
-from api.endpoints import dashboard, brands, products, orders, analytics, customers, vendors, support
+from api.endpoints import (
+    dashboard, brands, products, orders, analytics,
+    customers, vendors, support,
+    payments, reports, notifications, admin_actions, inventory
+)
 
 # Lifespan context manager for startup/shutdown
 @asynccontextmanager
@@ -77,25 +81,39 @@ app.include_router(brands.router, prefix="/api/admin", tags=["Brands"])
 app.include_router(products.router, prefix="/api/admin", tags=["Products"])
 app.include_router(orders.router, prefix="/api/admin", tags=["Orders"])
 app.include_router(analytics.router, prefix="/api/admin", tags=["Analytics"])
-app.include_router(customers.router, prefix="/api/admin", tags=["Customers"])
+app.include_router(customers.router, prefix="/api/admin", tags=["Customers & Users"])
 app.include_router(vendors.router, prefix="/api/admin", tags=["Vendors & Materials"])
 app.include_router(support.router, prefix="/api/admin", tags=["Support"])
+app.include_router(payments.router, prefix="/api/admin", tags=["Payments"])
+app.include_router(reports.router, prefix="/api/admin", tags=["Reports"])
+app.include_router(notifications.router, prefix="/api/admin", tags=["Notifications"])
+app.include_router(admin_actions.router, prefix="/api/admin", tags=["Admin Actions Log"])
+app.include_router(inventory.router, prefix="/api/admin", tags=["Inventory"])
 
 # Root endpoint
 @app.get("/")
 async def root():
     return {
         "message": "TalentTree Admin Dashboard API",
-        "version": "1.0.0",
+        "version": "2.0.0",
+        "total_endpoints": 52,
         "status": "running",
         "docs": "/docs",
-        "endpoints": {
+        "modules": {
             "dashboard": "/api/admin/dashboard/overview",
             "brands": "/api/admin/brands",
             "products": "/api/admin/products",
             "orders": "/api/admin/orders",
             "analytics": "/api/admin/analytics/sales-trends",
-            "customers": "/api/admin/customers"
+            "customers": "/api/admin/customers",
+            "users": "/api/admin/users",
+            "vendors": "/api/admin/vendors",
+            "support": "/api/admin/support-tickets",
+            "payments": "/api/admin/payments",
+            "reports": "/api/admin/reports/monthly",
+            "notifications": "/api/admin/notifications",
+            "admin_actions": "/api/admin/admin-actions",
+            "inventory": "/api/admin/inventory/overview"
         }
     }
 

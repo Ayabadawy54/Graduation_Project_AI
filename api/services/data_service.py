@@ -109,5 +109,13 @@ class DataService:
         """Get analytics snapshots"""
         return self._cache['analytics_snapshots'].copy()
 
+    def get_payments(self) -> pd.DataFrame:
+        """Get all payments"""
+        return self._cache['payments'].copy()
+
+    def get_admin_actions(self) -> pd.DataFrame:
+        """Get all admin actions log"""
+        return self._cache['admin_actions'].copy()
+
 # Global instance
 data_service = DataService()
