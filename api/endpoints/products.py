@@ -29,38 +29,7 @@ async def get_products(
     products_list = products_df.head(limit).to_dict(orient='records')
     return products_list
 
-@router.get("/products/{product_id}", response_model=ProductDetail)
-async def get_product_detail(product_id: str):
-    """
-    Get detailed product information with AI quality assessment
-    """
-    product = data_service.get_product_by_id(product_id)
-    
-    if not product:
-        raise HTTPException(status_code=404, detail="Product not found")
-    
-    # Get brand info
-    brand = data_service.get_brand_by_id(product['brand_id'])
-    
-    if not brand:
-        raise HTTPException(status_code=404, detail="Brand not found for this product")
-    
-    # Calculate quality score
-    quality_analysis = ai_service.calculate_product_quality_score(product, brand)
-    
-    return {
-        'product_id': product['product_id'],
-        'brand_id': product['brand_id'],
-        'name': product['name'],
-        'category': product['category'],
-        'price_egp': product['price_egp'],
-        'stock_quantity': product['stock_quantity'],
-        'status': product['status'],
-        'quality_score': quality_analysis['quality_score'],
-        'approval_recommendation': quality_analysis['approval_action'],
-        'suggestions': quality_analysis['suggestions']
-    }
-
+# ⚠️ IMPORTANT: All static routes MUST come before /{product_id} to avoid routing conflicts
 @router.get("/products/pending-approval")
 async def get_pending_products():
     """
@@ -95,26 +64,6 @@ async def get_pending_products():
     pending_with_analysis.sort(key=lambda x: x['quality_score'], reverse=True)
     
     return pending_with_analysis
-
-@router.post("/products/{product_id}/approve")
-async def approve_product(product_id: str, approval: ProductApproval):
-    """
-    Approve or reject a product
-    """
-    product = data_service.get_product_by_id(product_id)
-    
-    if not product:
-        raise HTTPException(status_code=404, detail="Product not found")
-    
-    # In real implementation, this would update the database
-    # For now, we just return success
-    
-    return {
-        'success': True,
-        'product_id': product_id,
-        'action': approval.action,
-        'message': f"Product {approval.action}d successfully"
-    }
 
 @router.get("/products/analytics/trending")
 async def get_trending_products(limit: int = 10):
@@ -153,3 +102,52 @@ async def get_pricing_analysis():
         })
     
     return analysis
+
+@router.get("/products/{product_id}", response_model=ProductDetail)
+async def get_product_detail(product_id: str):
+    """
+    Get detailed product information with AI quality assessment
+    """
+    product = data_service.get_product_by_id(product_id)
+    
+    if not product:
+        raise HTTPException(status_code=404, detail="Product not found")
+    
+    # Get brand info
+    brand = data_service.get_brand_by_id(product['brand_id'])
+    
+    if not brand:
+        raise HTTPException(status_code=404, detail="Brand not found for this product")
+    
+    # Calculate quality score
+    quality_analysis = ai_service.calculate_product_quality_score(product, brand)
+    
+    return {
+        'product_id': product['product_id'],
+        'brand_id': product['brand_id'],
+        'name': product['name'],
+        'category': product['category'],
+        'price_egp': product['price_egp'],
+        'stock_quantity': product['stock_quantity'],
+        'status': product['status'],
+        'quality_score': quality_analysis['quality_score'],
+        'approval_recommendation': quality_analysis['approval_action'],
+        'suggestions': quality_analysis['suggestions']
+    }
+
+@router.post("/products/{product_id}/approve")
+async def approve_product(product_id: str, approval: ProductApproval):
+    """
+    Approve or reject a product
+    """
+    product = data_service.get_product_by_id(product_id)
+    
+    if not product:
+        raise HTTPException(status_code=404, detail="Product not found")
+    
+    return {
+        'success': True,
+        'product_id': product_id,
+        'action': approval.action,
+        'message': f"Product {approval.action}d successfully"
+    }
