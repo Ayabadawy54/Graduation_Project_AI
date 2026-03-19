@@ -1,4 +1,4 @@
-Deployed BO recommender
+Deployed BO recommender:
 
 https://huggingface.co/spaces/AyaBadawy/BO_recommender
 
@@ -6,7 +6,7 @@ https://huggingface.co/spaces/AyaBadawy/BO_recommender
 
 
 
-Deployes Customer recommender
+Deployes Customer recommender:
 
 
 https://huggingface.co/spaces/AyaBadawy/customer_recommender
