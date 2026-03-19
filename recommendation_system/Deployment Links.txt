@@ -1,0 +1,10 @@
+https://huggingface.co/spaces/AyaBadawy/BO_recommender
+
+Deployed BO recommender
+
+
+
+
+https://huggingface.co/spaces/AyaBadawy/customer_recommender
+
+Deployes Customer recommender
