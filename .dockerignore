@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Test/temp files
+test_export.*
+talentree_financial.*
+test_api.py
+
+# Training data (regenerated on first run)
+data/csv/*.csv
+
+# Don't copy local model files - use Docker volume
+# Models will be trained/copied on first startup

@@ -1,0 +1,50 @@
+# ============================================================
+# Talentree BO Dashboard — Docker Compose
+# One command: docker compose up
+# ============================================================
+version: "3.9"
+
+services:
+
+  # ── AI Microservice (FastAPI) ────────────────────────────
+  talentree-ai:
+    build:
+      context: ./talentree-ai
+      dockerfile: Dockerfile
+    container_name: talentree-ai
+    restart: unless-stopped
+    ports:
+      - "8080:8000"   # host:container — access via http://localhost:8080
+    environment:
+      # DB connection — override via .env file for security
+      - DB_SERVER=${DB_SERVER:-db39807.public.databaseasp.net}
+      - DB_NAME=${DB_NAME:-db39807}
+      - DB_USER=${DB_USER:-db39807}
+      - DB_PASSWORD=${DB_PASSWORD:-Ya8@_Dt4o9N=}
+      - DB_ENCRYPT=${DB_ENCRYPT:-yes}
+      - DB_TRUST_CERT=${DB_TRUST_CERT:-yes}
+    volumes:
+      # Persist trained models across restarts
+      - ai-models:/app/models
+      # Persist generated CSV training data
+      - ai-data:/app/data/csv
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/ai/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    networks:
+      - talentree-network
+
+# ── Named Volumes ────────────────────────────────────────────
+volumes:
+  ai-models:
+    driver: local
+  ai-data:
+    driver: local
+
+# ── Network ──────────────────────────────────────────────────
+networks:
+  talentree-network:
+    driver: bridge
