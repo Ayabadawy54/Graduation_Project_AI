@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Test/temp
+test_export.*
+talentree_financial.*
+test_api.py
+
+# Large model binaries
+models/*.pkl
+
+# Training data CSVs
+data/csv/*.csv

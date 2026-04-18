@@ -1,0 +1,16 @@
+{
+  "model_type": "LinearRegression (per product)",
+  "avg_mae": 2.64,
+  "products_trained": 12,
+  "features": [
+    "week_number",
+    "month",
+    "avg_price",
+    "promotion_active",
+    "seasonal_factor",
+    "views_count"
+  ],
+  "data_source": "synthetic",
+  "saved_at": "2026-04-16T22:30:09.914403",
+  "filename": "demand_model.pkl"
+}

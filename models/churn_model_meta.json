@@ -1,0 +1,25 @@
+{
+  "model_type": "XGBoost",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "training_rows": 4000,
+  "features": [
+    "days_since_last_login",
+    "login_count_30d",
+    "total_orders",
+    "avg_order_value",
+    "support_tickets_open",
+    "profile_completeness",
+    "account_age_days",
+    "product_count",
+    "revenue_last_30d",
+    "negative_review_pct",
+    "login_frequency_weekly",
+    "avg_session_minutes"
+  ],
+  "data_source": "synthetic",
+  "saved_at": "2026-04-16T22:30:08.016878",
+  "filename": "churn_model.pkl"
+}

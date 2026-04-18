@@ -1,0 +1,23 @@
+{
+  "model_type": "XGBoost",
+  "accuracy": 0.8621,
+  "f1_score": 0.0,
+  "training_rows": 115,
+  "features": [
+    "order_amount",
+    "bo_account_age_days",
+    "bo_total_orders",
+    "order_hour",
+    "title_length",
+    "has_notes",
+    "bo_avg_order_value",
+    "amount_deviation",
+    "time_since_last_order_hours",
+    "is_payment_unpaid",
+    "status_changes_count",
+    "items_count",
+    "is_first_order"
+  ],
+  "saved_at": "2026-04-17T18:20:19.027974",
+  "data_source": "real_db"
+}
